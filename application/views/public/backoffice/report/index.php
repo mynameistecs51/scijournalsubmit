@@ -121,7 +121,7 @@
  								<tr id='<?php echo 'trrow'.$rowpay->pay_id; ?>' data-id='<?php echo $rowpay->pay_id; ?>'>
  									<td><?php echo $i++; ?></td>
  									<td><?php echo $rowpay->user_prefixname.' '.$rowpay->user_name.' '.$rowpay->user_lastname; ?></td>
- 									<td><?php echo anchor('index.php/report/downloadPaper/$num='.$rowpay->regis_id.'/$page='.$this->uri->segment(2), $rowpay->regis_projectnameThai, 'target="_blank"'); ?></td>
+ 									<td><?php echo anchor('index.php/report/downloadPaper/'.$rowpay->regis_id.'/'.$this->uri->segment(2), $rowpay->regis_projectnameThai, 'target="_blank"'); ?></td>
  									<td>
  										<?php
  										echo $statusdoc = (!empty($rowpay->createRegis))?"<i class='text-success'>ลงทะเบียนแล้ว</i>":"<i class='text-danger'>ยังไม่ลงทะเบียน</i>";
