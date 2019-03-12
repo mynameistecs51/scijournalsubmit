@@ -53,6 +53,25 @@ class Report extends CI_Controller {
 		// $this->data['']
 		$this->app->render('Report Data Journal', $this->layout.'/index', $this->data, true);
 	}
+
+	public function downloadPaper($id='',$group='')
+	{
+
+		if(is_numeric($id)){
+			echo "1";
+			$file = $this->report_model->getRegis($id);
+			if(!empty($file)){
+				$Fdata = file_get_contents(base_url('assets/files_template/'.$file[0]->regis_file));
+				$Fname = $file[0]->regis_projectnameThai.$file[0]->regis_file;
+
+				force_download($Fname,$Fdata);
+			}
+		}else{
+			echo $id;
+			echo $group;
+			// redirect('index.php','refresh');
+		}
+	}
 }
 
 /* End of file Report.php */
