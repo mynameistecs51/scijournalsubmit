@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>Sciende Udru Journal <?php echo CI_VERSION;?></title>
+	<title>Sciende Udru Journal</title>
 
 	<?php $this->load->view('templates/frontoffice/_css'); ?>
 

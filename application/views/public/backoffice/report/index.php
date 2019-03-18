@@ -32,7 +32,7 @@
  							}
  						} ?>
  						<strong><span class="count"><?php echo count($countLift); ?></span> PAPER </strong>
- 						<p class="h6 pb-4">วิทยาศาสตร์ชีวภาพ</p>
+ 						<p class="h6 pb-4">วิทยาศาสตร์ชsudoีวภาพ</p>
  					</div>
  					<!--/social-box-->
  				</div><!--/.col-->
