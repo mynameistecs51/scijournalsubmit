@@ -124,8 +124,11 @@
     		<li data-target="#main-slide" data-slide-to="1"></li>
     		<li data-target="#main-slide" data-slide-to="2"></li>
     	</ol>
-    	<div class="carousel-inner">
+    	<div class="carousel-inner fadeInUp wow" data-wow-delay=".6s">
     		<div class="carousel-item active">
+    			<img class="d-block w-100 h-50" src="<?php echo base_url(); ?>assets/img/slider/slide6.jpg" alt="First slide">
+    		</div>
+    		<div class="carousel-item">
     			<img class="d-block w-100 h-50" src="<?php echo base_url(); ?>assets/img/slider/slide1.jpg" alt="First slide">
     			<div class="carousel-caption d-md-block">
     				<p class="fadeInUp wow" data-wow-delay=".6s">คณะวิทยาศาสตร์ มหาวิทยาลัยราชภัฏอุดรธานีี</p>

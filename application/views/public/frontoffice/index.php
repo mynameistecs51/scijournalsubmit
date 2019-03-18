@@ -10,21 +10,94 @@
 				</div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="row time-countdown justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+				<table class="table table-striped col-12 h5 rounded ">
+					<tbody class="text-left border border-info " >
+						<tr>
+							<td class="col-6 border border-info ">เปิดรับบทความและลงทะเบียน</td>
+							<td class="col-6 border border-info ">วันที่ 5 มีนาคม 2562</td>
+						</tr>
+						<tr>
+							<td class="col-6 border border-info ">สิ้นสุดการรับผลงาน</td>
+							<td class="col-6 border border-info text-danger">วันที่ 10 เมษายน 2562</td>
+						</tr>
+						<tr>
+							<td class="col-6 border border-info ">การประชุมวิชาการนำเสนอผลงานนักศึกษาระดับปริญญาตรี ประจำปี 2562</td>
+							<td class="col-6 border border-info font-weight-bold"> วันที่ 15 พฤษภาคม 2562 </td>
+						</tr>
+					</tbody>
+				</table>
+				<!-- <div class="row time-countdown justify-content-center wow fadeInUp" data-wow-delay="0.2s">
 					<div id="clock" class="time-count"></div>
 				</div>
 
 				<div class="heading-count">
 					<h2 class="wow fadeInDown text-danger" data-wow-delay="0.2s"><u>** 10 เมษายน 2562 สิ้นสุดการรับผลงาน **</u></h2>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
 </section>
 <!-- Coundown Section End -->
 
+
+<!--==============================
+=            Template            =
+===============================-->
+
+<section id="teamplate" class="teamplate section-padding">
+	<div class="container">
+		<!-- <div class="row">
+			<div class="col-12">
+				<div class="section-title-header text-center">
+					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s"> Download Teamplate </h1>
+					<p class="wow fadeInDown" data-wow-delay="0.2s"> รูปแบบการนำเสนอบทความ ทั้ง Full paper และ Poster</p>
+				</div>
+			</div>
+		</div> -->
+		<div class="col-sm-12 wow fadeInDown" data-wow-delay="0.2s">
+			<!-- Services item -->
+			<div class="card-deck">
+				<div class="card col-sm-3 mb-3 ml-2 pt-3 list border border-info alert-info">
+					<div class="text-center icon">
+						<i class="lni-list size-lg"></i>
+					</div>
+					<div class="card-body">
+						<p class="card-text text-center text-black-60 h3">กำหนดการ</p>
+					</div>
+				</div>
+				<div class="card col-sm-3 mb-3 ml-2 pt-3 template border border-primary alert-primary">
+					<div class="text-center icon">
+						<i class="lni-add-file size-lg"></i>
+					</div>
+					<div class="card-body">
+						<p class="card-text text-center text-black-60 h3">Download Template</p>
+					</div>
+				</div>
+				<div class="card col-sm-3 mb-3 ml-2 pt-3 register border border-warning alert-warning">
+					<div class="text-center icon">
+						<i class="lni-users size-lg"></i>
+					</div>
+					<div class="card-body">
+						<p class="card-text text-center text-black-60 h3">ลงทะเบียน</p>
+					</div>
+				</div>
+				<div class="card col-sm-3 mb-3 ml-2 pt-3 payment border border-success alert-success">
+					<div class="text-center icon">
+						<i class="lni-credit-cards size-lg"></i>
+					</div>
+					<div class="card-body">
+						<p class="card-text text-center text-black-60 h3">อัตราค่าลงทะเบียน</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of Template  ====-->
+
 <!-- Services Section Start -->
-<section id="services" class="services section-padding">
+<section id="services" class="services section-padding bg-light">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -148,7 +221,6 @@
 </section>
 <!-- About Section End -->
 
-
 <!-- Schedule Section Start -->
 <section id="schedules" class="schedule section-padding">
 	<div class="container">
@@ -168,7 +240,7 @@
 							<a class="nav-link active" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-expanded="true">
 								<div class="item-text">
 									<h4>กำหนดการโดยรวม</h4>
-									<h5>15 พฤศภาคม 2562</h5>
+									<h5>15 พฤษภาคม 2562</h5>
 								</div>
 							</a>
 						</li>
@@ -614,6 +686,7 @@
 									<input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
 								</div>
 							</div>
+
 							<!-- <div class="form-group row">
 								<div class="col-sm-2">จดจำ</div>
 								<div class="col-sm-10">
@@ -667,6 +740,9 @@
 		});
 		countDownTime();
 
+		list();
+		template();
+
 	}(jQuery));
 
 	function countDownTime() {
@@ -679,12 +755,54 @@
 				+'<div class="time-entry days"><span> 15 </span> Days</div>'
 				+'<div class="time-entry hours"><span> พ.ค. </span> MOUNT</div>'
 				+'<div class="time-entry minutes"><span> 2562 </span> YEAR</div>'
-// +'<div class="time-entry days"><span> %-d </span> Days</div>'
-// +'<div class="time-entry hours"><span> %H </span> HOURS</div>'
-// +'<div class="time-entry minutes"><span> %M </span> MINUTES</div>'
-// +'<div class="time-entry seconds"><span> %S </span> SECONDS</div>'
-));
+				));
 		});
 // --------------------------
+}
+
+function template() {
+	$('.template').click(function(){
+		load_page("<?php echo base_url('index.php/welcome/pageTemplate');?>",'.:: TEMPLATE ::.');
+	});
+}
+
+function list() {
+	$('.list').click(function(){
+		load_page("<?php echo base_url('index.php/welcome/pageSchedule');?>",'.:: กำหนดการ ::.');
+	});
+}
+
+function load_page(loadUrl,texttitle){
+	var screenname= texttitle;
+	var url = loadUrl;
+	var n=0;
+	$('.div_modal').html('');
+	modal_form(n,screenname);
+	$('#myModal'+n+' .modal-body').html('<i class="lni-spinner lni-arrow-left lni-fade-left-effect size-lg"></i>');
+	var modal = $('#myModal'+n), modalBody = $('#myModal'+n+' .modal-body');
+	modal.on('show.bs.modal', function () {
+		modalBody.load(url);
+	}).modal({backdrop: 'static',keyboard: true});
+	setInterval(function(){$('#ajaxLoaderModal').remove()},5100);
+}
+
+function modal_form(n,screenname,url)
+{
+	var div='';
+	div+='<!-- Modal -->';
+	div+='<div class="modal modal-wide fade mt-5" id="myModal'+n+'" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">';
+	div+='<div class="modal-dialog modal-lg">';
+	div+='<div class="modal-content">';
+	div+='<div class="modal-header bg-warning" style="color:#FFFFFF;">';
+	div+='<h5 class="modal-title mr-auto">'+screenname+'</h5>';
+	div+='<button type="button" class="close float-right" data-dismiss="modal" aria-hidden="true">&times;</button>';
+	div+='</div>';
+	div+='<div class="modal-body">';
+	div+='</div>';
+
+	div+='</div><!-- /.modal-content -->';
+	div+='</div><!-- /.modal-dialog -->';
+	div+='</div><!-- /.modal -->';
+	$('.div_modal').html(div);
 }
 </script>
