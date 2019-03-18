@@ -62,7 +62,7 @@
 						<i class="lni-list size-lg"></i>
 					</div>
 					<div class="card-body">
-						<p class="card-text text-center text-black-60 h3">กำหนดการ</p>
+						<p class="card-text text-center text-black-60 h4">กำหนดการ</p>
 					</div>
 				</div>
 				<div class="card col-sm-3 mb-3 ml-2 pt-3 template border border-primary alert-primary">
@@ -70,7 +70,7 @@
 						<i class="lni-add-file size-lg"></i>
 					</div>
 					<div class="card-body">
-						<p class="card-text text-center text-black-60 h3">Download Template</p>
+						<p class="card-text text-center text-black-60 h4">Download Template</p>
 					</div>
 				</div>
 				<div class="card col-sm-3 mb-3 ml-2 pt-3 register border border-warning alert-warning">
@@ -78,7 +78,7 @@
 						<i class="lni-users size-lg"></i>
 					</div>
 					<div class="card-body">
-						<p class="card-text text-center text-black-60 h3">ลงทะเบียน</p>
+						<p class="card-text text-center text-black-60 h4">ลงทะเบียน</p>
 					</div>
 				</div>
 				<div class="card col-sm-3 mb-3 ml-2 pt-3 payment border border-success alert-success">
@@ -86,7 +86,7 @@
 						<i class="lni-credit-cards size-lg"></i>
 					</div>
 					<div class="card-body">
-						<p class="card-text text-center text-black-60 h3">อัตราค่าลงทะเบียน</p>
+						<p class="card-text text-center text-black-60 h4">อัตราค่าลงทะเบียนบทความ</p>
 					</div>
 				</div>
 			</div>
