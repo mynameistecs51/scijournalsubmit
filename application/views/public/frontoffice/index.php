@@ -10,19 +10,19 @@
 				</div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<table class="table table-striped col-12 h5 rounded ">
+				<table class="table table-striped col-12 h5 rounded " style="width: 100%;">
 					<tbody class="text-left border border-info " >
 						<tr>
-							<td class="col-6 border border-info ">เปิดรับบทความและลงทะเบียน</td>
-							<td class="col-6 border border-info ">วันที่ 5 มีนาคม 2562</td>
+							<td class="col-6 border border-info " style="width: 50%;">เปิดรับบทความและลงทะเบียน</td>
+							<td class="col-6 border border-info " style="width: 50%;">วันที่ 5 มีนาคม 2562</td>
 						</tr>
 						<tr>
-							<td class="col-6 border border-info ">สิ้นสุดการรับผลงาน</td>
-							<td class="col-6 border border-info text-danger">วันที่ 10 เมษายน 2562</td>
+							<td class="col-6 border border-info " style="width: 50%;">สิ้นสุดการรับผลงาน</td>
+							<td class="col-6 border border-info text-danger" style="width: 50%;">วันที่ 10 เมษายน 2562</td>
 						</tr>
 						<tr>
-							<td class="col-6 border border-info ">การประชุมวิชาการนำเสนอผลงานนักศึกษาระดับปริญญาตรี ประจำปี 2562</td>
-							<td class="col-6 border border-info font-weight-bold"> วันที่ 15 พฤษภาคม 2562 </td>
+							<td class="col-6 border border-info " style="width: 50%;">การประชุมวิชาการนำเสนอผลงานนักศึกษาระดับปริญญาตรี ประจำปี 2562</td>
+							<td class="col-6 border border-info font-weight-bold" style="width: 50%;"> วันที่ 15 พฤษภาคม 2562 </td>
 						</tr>
 					</tbody>
 				</table>
