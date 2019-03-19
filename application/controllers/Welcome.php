@@ -30,4 +30,9 @@ class Welcome extends CI_Controller {
 		$this->load->view('public/frontoffice/welcome/template');
 	}
 
+	public function fee()
+	{
+		$this->load->view('public/frontoffice/welcome/fee');
+	}
+
 }

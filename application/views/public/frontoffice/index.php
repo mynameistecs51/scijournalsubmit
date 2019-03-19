@@ -26,13 +26,6 @@
 						</tr>
 					</tbody>
 				</table>
-				<!-- <div class="row time-countdown justify-content-center wow fadeInUp" data-wow-delay="0.2s">
-					<div id="clock" class="time-count"></div>
-				</div>
-
-				<div class="heading-count">
-					<h2 class="wow fadeInDown text-danger" data-wow-delay="0.2s"><u>** 10 เมษายน 2562 สิ้นสุดการรับผลงาน **</u></h2>
-				</div> -->
 			</div>
 		</div>
 	</div>
@@ -54,10 +47,10 @@
 				</div>
 			</div>
 		</div> -->
-		<div class="col-sm-12 wow fadeInDown" data-wow-delay="0.2s">
+		<div class="col-sm-12 mx-auto wow fadeInDown" data-wow-delay="0.2s">
 			<!-- Services item -->
 			<div class="card-deck">
-				<div class="card col-sm-3 mb-3 ml-2 pt-3 list border border-info alert-info">
+				<div class="card col-sm-3 mb-3 ml-2 pt-3 list border border-info alert-info padding-none">
 					<div class="text-center icon">
 						<i class="lni-list size-lg"></i>
 					</div>
@@ -73,15 +66,15 @@
 						<p class="card-text text-center text-black-60 h4">Download Template</p>
 					</div>
 				</div>
-				<div class="card col-sm-3 mb-3 ml-2 pt-3 register border border-warning alert-warning">
+				<!-- <div class="card col-sm-3 mb-3 ml-2 pt-3 register border border-warning alert-warning">
 					<div class="text-center icon">
 						<i class="lni-users size-lg"></i>
 					</div>
 					<div class="card-body">
 						<p class="card-text text-center text-black-60 h4">ลงทะเบียน</p>
 					</div>
-				</div>
-				<div class="card col-sm-3 mb-3 ml-2 pt-3 payment border border-success alert-success">
+				</div> -->
+				<div class="card col-sm-3 mb-3 ml-2 pt-3 fee border border-success alert-success">
 					<div class="text-center icon">
 						<i class="lni-credit-cards size-lg"></i>
 					</div>
@@ -742,7 +735,7 @@
 
 		list();
 		template();
-
+		fee();
 	}(jQuery));
 
 	function countDownTime() {
@@ -769,6 +762,12 @@ function template() {
 function list() {
 	$('.list').click(function(){
 		load_page("<?php echo base_url('index.php/welcome/pageSchedule');?>",'.:: กำหนดการ ::.');
+	});
+}
+
+function fee() {
+	$('.fee').click(function(){
+		load_page("<?php echo base_url('index.php/welcome/fee');?>",'.:: อัตราค่าลงทะเบียนบทความ ::.');
 	});
 }
 
