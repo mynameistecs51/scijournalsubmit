@@ -181,32 +181,62 @@
 		<div class="row">
 			<div class="col-xs-12 col-md-6 col-lg-4">
 				<div class="about-item">
-					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/slider/slide1.jpg" alt="">
-					<div class="about-text">
+					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/gallery/gallery1.jpg" alt="">
+				<!-- <div class="about-text">
 						<h3><a href="#">Wanna Know Our Mission?</a></h3>
-						<!-- 	<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
+						<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
 						<a class="btn btn-common btn-rm" href="#">Read More</a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-6 col-lg-4">
 				<div class="about-item">
-					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/slider/slide2.jpg" alt="">
-					<div class="about-text">
+					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/gallery/gallery2.jpg" alt="">
+				<!-- <div class="about-text">
 						<h3><a href="#">What you will learn?</a></h3>
-						<!-- 	<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
+						<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
 						<a class="btn btn-common btn-rm" href="#">Read More</a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-6 col-lg-4">
 				<div class="about-item">
-					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/slider/slide3.jpg" alt="">
-					<div class="about-text">
+					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/gallery/gallery3.jpg" alt="">
+				<!-- <div class="about-text">
 						<h3><a href="#">What are the benifits?</a></h3>
-						<!-- 	<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
+						<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
 						<a class="btn btn-common btn-rm" href="#">Read More</a>
-					</div>
+					</div> -->
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-6 col-lg-4">
+				<div class="about-item">
+					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/gallery/gallery4.jpg" alt="">
+				<!-- <div class="about-text">
+						<h3><a href="#">What are the benifits?</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+						<a class="btn btn-common btn-rm" href="#">Read More</a>
+					</div> -->
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-6 col-lg-4">
+				<div class="about-item">
+					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/gallery/gallery5.jpg" alt="">
+				<!-- <div class="about-text">
+						<h3><a href="#">What are the benifits?</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+						<a class="btn btn-common btn-rm" href="#">Read More</a>
+					</div> -->
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-6 col-lg-4">
+				<div class="about-item">
+					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/gallery/gallery6.jpg" alt="">
+				<!-- <div class="about-text">
+						<h3><a href="#">What are the benifits?</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+						<a class="btn btn-common btn-rm" href="#">Read More</a>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -714,6 +744,52 @@
 <?php endif; ?>
 <!-- Login Section End -->
 
+<!--=============================
+=            contact            =
+==============================-->
+<section id="contact" class="section-padding bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title-header text-center">
+					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s"> ติดต่อเรา </h1>
+					<p class="wow fadeInDown" data-wow-delay="0.2s"> <!-- ข้อความ --> </p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="form-row col-sm-12 mx-auto">
+				<div class="mx-auto">
+
+					<div class="col-sm-8 h-100 d-inline-bloc float-left border border-info">
+						<div id="map"  style="height: 350px;"></div>
+					</div>
+
+					<div class="col-sm-4 float-right h4">
+						<div class="form-row pl-3">
+							<div class="col-md-12 mb-3">
+								<label>คณะวิทยาศาสตร์ มหาวิทยาลัยราชภัฏอุดรธานี</label>
+							</div>
+							<div class="col-md-12 mb-3">
+								<div class="section-title-header">
+									234 หมู่ 12 ต.สามพร้าว อ.เมือง จ.อุดรธานี 41000 <br>
+									<i class="lni-phone"></i> 042-211-040 ถึง 59 <br>
+									Fax: 042-211-040 ถึง 3200
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!--====  End of contact  ====-->
+
+
 
 <!-- Modal show Start -->
 <div class="div_modal">  </div>
@@ -731,6 +807,10 @@
 		$('.login').click(function(){
 			$('#email').focus();
 		});
+		// var script = document.createElement('script');
+		// script.src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBmVL_1e2ycz89UkhOfTYAT0rQfaiVwWcs &callback=initialize";
+		// document.body.appendChild(script);
+
 		countDownTime();
 
 		list();
@@ -804,4 +884,18 @@ function modal_form(n,screenname,url)
 	div+='</div><!-- /.modal -->';
 	$('.div_modal').html(div);
 }
+
 </script>
+<script>
+	var map;
+	function init() {
+		map = new longdo.Map({
+			placeholder: document.getElementById('map'),
+			language: 'th',
+		});
+		// Custom location
+		map.location({ lon:102.936198, lat:17.451872 }, true);
+		map.zoom(16);
+	}
+</script>
+<script src="http://api.longdo.com/map/?key=abcadee7742baaf87dfab2dac87d9869"></script>

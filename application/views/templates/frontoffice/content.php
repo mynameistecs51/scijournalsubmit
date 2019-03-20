@@ -10,7 +10,7 @@
 	<?php $this->load->view('templates/frontoffice/_css'); ?>
 
 </head>
-<body>
+<body onload="init();">
 
 	<?php $this->load->view('templates/frontoffice/_header'); ?>
 
