@@ -131,7 +131,7 @@
 							<input type="tel" class="form-control" name="telephone" placeholder="042 000 000">
 						</div>
 						<div class="col-md-6 mb-3">
-							<label for="mobile"> โทรศัพท์</label>
+							<label for="mobile"> มือถือ</label>
 							<input type="tel" class="form-control" name="mobile" placeholder="081 111 1111" required>
 							<div class="invalid-feedback">
 								กรุณากรอกข้อมูล มือถือ.

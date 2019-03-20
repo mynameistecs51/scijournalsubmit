@@ -20,5 +20,19 @@ class Welcome extends CI_Controller {
 		$this->app->render('Science Journal UDRU '.CI_VERSION, $this->layout.'index', $this->data, null);
 	}
 
+	public function pageSchedule()
+	{
+		$this->load->view('public/frontoffice/welcome/scheduls');
+	}
+
+	public function pageTemplate()
+	{
+		$this->load->view('public/frontoffice/welcome/template');
+	}
+
+	public function fee()
+	{
+		$this->load->view('public/frontoffice/welcome/fee');
+	}
 
 }

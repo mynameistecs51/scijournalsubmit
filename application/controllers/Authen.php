@@ -6,8 +6,8 @@ class Authen extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->model('Crud_model');
-		$this->load->model('Authen_model');
+		$this->load->model('crud_model');
+		$this->load->model('authen_model');
 		$this->layout = 'frontoffice/authen/';
 		$this->table = 'user';
 
@@ -50,7 +50,7 @@ class Authen extends CI_Controller {
 	public function checkLogin()
 	{
 		if ($_POST) {
-			$authenRS = $this->Authen_model->CheckValidLogin($this->input->post('email'), trim(md5($this->input->post('password'))));
+			$authenRS = $this->authen_model->CheckValidLogin($this->input->post('email'), trim(md5($this->input->post('password'))));
 			if (!empty($authenRS)) {
 				$this->setSession($authenRS);
 			} else {

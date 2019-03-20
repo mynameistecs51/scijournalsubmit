@@ -10,21 +10,87 @@
 				</div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="row time-countdown justify-content-center wow fadeInUp" data-wow-delay="0.2s">
-					<div id="clock" class="time-count"></div>
-				</div>
-
-				<div class="heading-count">
-					<h2 class="wow fadeInDown text-danger" data-wow-delay="0.2s"><u>** 10 เมษายน 2562 สิ้นสุดการรับผลงาน **</u></h2>
-				</div>
+				<table class="table table-striped col-12 h5 rounded " style="width: 100%;">
+					<tbody class="text-left border border-info " >
+						<tr>
+							<td class="col-6 border border-info " style="width: 50%;">เปิดรับบทความและลงทะเบียน</td>
+							<td class="col-6 border border-info " style="width: 50%;">วันที่ 5 มีนาคม 2562</td>
+						</tr>
+						<tr>
+							<td class="col-6 border border-info " style="width: 50%;">สิ้นสุดการรับผลงาน</td>
+							<td class="col-6 border border-info text-danger" style="width: 50%;">วันที่ 10 เมษายน 2562</td>
+						</tr>
+						<tr>
+							<td class="col-6 border border-info " style="width: 50%;">การประชุมวิชาการนำเสนอผลงานนักศึกษาระดับปริญญาตรี ประจำปี 2562</td>
+							<td class="col-6 border border-info font-weight-bold" style="width: 50%;"> วันที่ 15 พฤษภาคม 2562 </td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
 	</div>
 </section>
 <!-- Coundown Section End -->
 
+
+<!--==============================
+=            Template            =
+===============================-->
+
+<section id="teamplate" class="teamplate section-padding">
+	<div class="container">
+		<!-- <div class="row">
+			<div class="col-12">
+				<div class="section-title-header text-center">
+					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s"> Download Teamplate </h1>
+					<p class="wow fadeInDown" data-wow-delay="0.2s"> รูปแบบการนำเสนอบทความ ทั้ง Full paper และ Poster</p>
+				</div>
+			</div>
+		</div> -->
+		<div class="col-sm-12 mx-auto wow fadeInDown" data-wow-delay="0.2s">
+			<!-- Services item -->
+			<div class="card-deck">
+				<div class="card col-sm-3 mb-3 ml-2 pt-3 list border border-info alert-info padding-none">
+					<div class="text-center icon">
+						<i class="lni-list size-lg"></i>
+					</div>
+					<div class="card-body">
+						<p class="card-text text-center text-black-60 h4">กำหนดการ</p>
+					</div>
+				</div>
+				<div class="card col-sm-3 mb-3 ml-2 pt-3 template border border-primary alert-primary">
+					<div class="text-center icon">
+						<i class="lni-add-file size-lg"></i>
+					</div>
+					<div class="card-body">
+						<p class="card-text text-center text-black-60 h4">Download Template</p>
+					</div>
+				</div>
+				<!-- <div class="card col-sm-3 mb-3 ml-2 pt-3 register border border-warning alert-warning">
+					<div class="text-center icon">
+						<i class="lni-users size-lg"></i>
+					</div>
+					<div class="card-body">
+						<p class="card-text text-center text-black-60 h4">ลงทะเบียน</p>
+					</div>
+				</div> -->
+				<div class="card col-sm-3 mb-3 ml-2 pt-3 fee border border-success alert-success">
+					<div class="text-center icon">
+						<i class="lni-credit-cards size-lg"></i>
+					</div>
+					<div class="card-body">
+						<p class="card-text text-center text-black-60 h4">อัตราค่าลงทะเบียนบทความ</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of Template  ====-->
+
 <!-- Services Section Start -->
-<section id="services" class="services section-padding">
+<section id="services" class="services section-padding bg-light">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -115,39 +181,68 @@
 		<div class="row">
 			<div class="col-xs-12 col-md-6 col-lg-4">
 				<div class="about-item">
-					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/slider/slide1.jpg" alt="">
-					<div class="about-text">
+					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/gallery/gallery1.jpg" alt="">
+				<!-- <div class="about-text">
 						<h3><a href="#">Wanna Know Our Mission?</a></h3>
-						<!-- 	<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
+						<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
 						<a class="btn btn-common btn-rm" href="#">Read More</a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-6 col-lg-4">
 				<div class="about-item">
-					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/slider/slide2.jpg" alt="">
-					<div class="about-text">
+					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/gallery/gallery2.jpg" alt="">
+				<!-- <div class="about-text">
 						<h3><a href="#">What you will learn?</a></h3>
-						<!-- 	<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
+						<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
 						<a class="btn btn-common btn-rm" href="#">Read More</a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-6 col-lg-4">
 				<div class="about-item">
-					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/slider/slide3.jpg" alt="">
-					<div class="about-text">
+					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/gallery/gallery3.jpg" alt="">
+				<!-- <div class="about-text">
 						<h3><a href="#">What are the benifits?</a></h3>
-						<!-- 	<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
+						<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
 						<a class="btn btn-common btn-rm" href="#">Read More</a>
-					</div>
+					</div> -->
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-6 col-lg-4">
+				<div class="about-item">
+					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/gallery/gallery4.jpg" alt="">
+				<!-- <div class="about-text">
+						<h3><a href="#">What are the benifits?</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+						<a class="btn btn-common btn-rm" href="#">Read More</a>
+					</div> -->
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-6 col-lg-4">
+				<div class="about-item">
+					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/gallery/gallery5.jpg" alt="">
+				<!-- <div class="about-text">
+						<h3><a href="#">What are the benifits?</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+						<a class="btn btn-common btn-rm" href="#">Read More</a>
+					</div> -->
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-6 col-lg-4">
+				<div class="about-item">
+					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/gallery/gallery6.jpg" alt="">
+				<!-- <div class="about-text">
+						<h3><a href="#">What are the benifits?</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+						<a class="btn btn-common btn-rm" href="#">Read More</a>
+					</div> -->
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
 <!-- About Section End -->
-
 
 <!-- Schedule Section Start -->
 <section id="schedules" class="schedule section-padding">
@@ -168,7 +263,7 @@
 							<a class="nav-link active" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-expanded="true">
 								<div class="item-text">
 									<h4>กำหนดการโดยรวม</h4>
-									<h5>15 พฤศภาคม 2562</h5>
+									<h5>15 พฤษภาคม 2562</h5>
 								</div>
 							</a>
 						</li>
@@ -614,6 +709,7 @@
 									<input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
 								</div>
 							</div>
+
 							<!-- <div class="form-group row">
 								<div class="col-sm-2">จดจำ</div>
 								<div class="col-sm-10">
@@ -648,6 +744,52 @@
 <?php endif; ?>
 <!-- Login Section End -->
 
+<!--=============================
+=            contact            =
+==============================-->
+<section id="contact" class="section-padding bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title-header text-center">
+					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s"> ติดต่อเรา </h1>
+					<p class="wow fadeInDown" data-wow-delay="0.2s"> <!-- ข้อความ --> </p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="form-row col-sm-12 mx-auto">
+				<div class="mx-auto">
+
+					<div class="col-sm-8 h-100 d-inline-bloc float-left border border-info">
+						<div id="map"  style="height: 350px;"></div>
+					</div>
+
+					<div class="col-sm-4 float-right h4">
+						<div class="form-row pl-3">
+							<div class="col-md-12 mb-3">
+								<label>คณะวิทยาศาสตร์ มหาวิทยาลัยราชภัฏอุดรธานี</label>
+							</div>
+							<div class="col-md-12 mb-3">
+								<div class="section-title-header">
+									234 หมู่ 12 ต.สามพร้าว อ.เมือง จ.อุดรธานี 41000 <br>
+									<i class="lni-phone"></i> 042-211-040 ถึง 59 <br>
+									Fax: 042-211-040 ถึง 3200
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!--====  End of contact  ====-->
+
+
 
 <!-- Modal show Start -->
 <div class="div_modal">  </div>
@@ -665,8 +807,15 @@
 		$('.login').click(function(){
 			$('#email').focus();
 		});
+		// var script = document.createElement('script');
+		// script.src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBmVL_1e2ycz89UkhOfTYAT0rQfaiVwWcs &callback=initialize";
+		// document.body.appendChild(script);
+
 		countDownTime();
 
+		list();
+		template();
+		fee();
 	}(jQuery));
 
 	function countDownTime() {
@@ -679,12 +828,74 @@
 				+'<div class="time-entry days"><span> 15 </span> Days</div>'
 				+'<div class="time-entry hours"><span> พ.ค. </span> MOUNT</div>'
 				+'<div class="time-entry minutes"><span> 2562 </span> YEAR</div>'
-// +'<div class="time-entry days"><span> %-d </span> Days</div>'
-// +'<div class="time-entry hours"><span> %H </span> HOURS</div>'
-// +'<div class="time-entry minutes"><span> %M </span> MINUTES</div>'
-// +'<div class="time-entry seconds"><span> %S </span> SECONDS</div>'
-));
+				));
 		});
 // --------------------------
 }
+
+function template() {
+	$('.template').click(function(){
+		load_page("<?php echo base_url('index.php/welcome/pageTemplate');?>",'.:: TEMPLATE ::.');
+	});
+}
+
+function list() {
+	$('.list').click(function(){
+		load_page("<?php echo base_url('index.php/welcome/pageSchedule');?>",'.:: กำหนดการ ::.');
+	});
+}
+
+function fee() {
+	$('.fee').click(function(){
+		load_page("<?php echo base_url('index.php/welcome/fee');?>",'.:: อัตราค่าลงทะเบียนบทความ ::.');
+	});
+}
+
+function load_page(loadUrl,texttitle){
+	var screenname= texttitle;
+	var url = loadUrl;
+	var n=0;
+	$('.div_modal').html('');
+	modal_form(n,screenname);
+	$('#myModal'+n+' .modal-body').html('<i class="lni-spinner lni-arrow-left lni-fade-left-effect size-lg"></i>');
+	var modal = $('#myModal'+n), modalBody = $('#myModal'+n+' .modal-body');
+	modal.on('show.bs.modal', function () {
+		modalBody.load(url);
+	}).modal({backdrop: 'static',keyboard: true});
+	setInterval(function(){$('#ajaxLoaderModal').remove()},5100);
+}
+
+function modal_form(n,screenname,url)
+{
+	var div='';
+	div+='<!-- Modal -->';
+	div+='<div class="modal modal-wide fade mt-5" id="myModal'+n+'" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">';
+	div+='<div class="modal-dialog modal-lg">';
+	div+='<div class="modal-content">';
+	div+='<div class="modal-header bg-warning" style="color:#FFFFFF;">';
+	div+='<h5 class="modal-title mr-auto">'+screenname+'</h5>';
+	div+='<button type="button" class="close float-right" data-dismiss="modal" aria-hidden="true">&times;</button>';
+	div+='</div>';
+	div+='<div class="modal-body">';
+	div+='</div>';
+
+	div+='</div><!-- /.modal-content -->';
+	div+='</div><!-- /.modal-dialog -->';
+	div+='</div><!-- /.modal -->';
+	$('.div_modal').html(div);
+}
+
 </script>
+<script>
+	var map;
+	function init() {
+		map = new longdo.Map({
+			placeholder: document.getElementById('map'),
+			language: 'th',
+		});
+		// Custom location
+		map.location({ lon:102.936198, lat:17.451872 }, true);
+		map.zoom(16);
+	}
+</script>
+<script src="http://api.longdo.com/map/?key=abcadee7742baaf87dfab2dac87d9869"></script>

@@ -9,14 +9,10 @@ class Template extends CI_Controller {
 		$this->layout = 'backoffice/template/';
 		$this->load->model('datame_model');
 		$this->load->model('crud_model');
-		$userID = $this->session->userdata('user_id');
 
-		if (!empty($userID)) {
-			$this->data['dataLogin']   = $this->session->userdata('user_id');
-			$this->data['sessiondata'] = $this->session->userdata();
-		} else {
-			redirect('index.php/welcome/#login', 'refresh');
-		}
+		$this->data['dataLogin']   = $this->session->userdata('user_id');
+		$this->data['sessiondata'] = $this->session->userdata();
+
 	}
 
 	public function index()

@@ -124,36 +124,39 @@
     		<li data-target="#main-slide" data-slide-to="1"></li>
     		<li data-target="#main-slide" data-slide-to="2"></li>
     	</ol>
-    	<div class="carousel-inner">
+    	<div class="carousel-inner fadeInUp wow" data-wow-delay=".6s">
+    		<!-- <div class="carousel-item active">
+    			<img class="d-block w-100" src="<?php echo base_url(); ?>assets/img/slider/slide6.jpg" alt="First slide">
+    		</div> -->
     		<div class="carousel-item active">
-    			<img class="d-block w-100 h-50" src="<?php echo base_url(); ?>assets/img/slider/slide1.jpg" alt="First slide">
-    			<div class="carousel-caption d-md-block">
+    			<img class="d-block w-100" src="<?php echo base_url(); ?>assets/img/slider/slide1.jpg" alt="First slide">
+    			<!-- <div class="carousel-caption d-md-block">
     				<p class="fadeInUp wow" data-wow-delay=".6s">คณะวิทยาศาสตร์ มหาวิทยาลัยราชภัฏอุดรธานีี</p>
     				<h1 class="wow fadeInDown heading" data-wow-delay=".4s">การประชุมวิชาการนำเสนอผลงานนักศึกษา	ระดับปริญญาตรี ประจำปี 2562
     				</h1>
     				<a href="#login" class="fadeInLeft wow btn btn-common btn-lg" data-wow-delay=".6s">เข้าร่วม</a>
     				<a href="#schedules" class="fadeInRight wow btn btn-border btn-lg" data-wow-delay=".6s">กำหนดการ</a>
-    			</div>
+    			</div> -->
     		</div>
     		<div class="carousel-item">
-    			<img class="d-block w-100 h-50" src="<?php echo base_url(); ?>assets/img/slider/slide2.jpg" alt="Second slide">
-    			<div class="carousel-caption d-md-block">
+    			<img class="d-block w-100" src="<?php echo base_url(); ?>assets/img/slider/slide2.jpg" alt="Second slide">
+    			<!-- <div class="carousel-caption d-md-block">
     				<p class="fadeInUp wow" data-wow-delay=".6s">คณะวิทยาศาสตร์ มหาวิทยาลัยราชภัฏอุดรธานีี</p>
     				<h1 class="wow fadeInDown heading" data-wow-delay=".4s">การประชุมวิชาการนำเสนอผลงานนักศึกษา	ระดับปริญญาตรี ประจำปี 2562
     				</h1>
     				<a href="#login" class="fadeInLeft wow btn btn-common btn-lg" data-wow-delay=".6s">เข้าร่วม</a>
     				<a href="#schedules" class="fadeInRight wow btn btn-border btn-lg" data-wow-delay=".6s">กำหนดการ</a>
-    			</div>
+    			</div> -->
     		</div>
     		<div class="carousel-item">
-    			<img class="d-block w-100 h-50" src="<?php echo base_url(); ?>assets/img/slider/slide3.jpg" alt="Third slide">
-    			<div class="carousel-caption d-md-block">
+    			<img class="d-block w-100" src="<?php echo base_url(); ?>assets/img/slider/slide3.jpg" alt="Third slide">
+    			<!-- <div class="carousel-caption d-md-block">
     				<p class="fadeInUp wow" data-wow-delay=".6s">คณะวิทยาศาสตร์ มหาวิทยาลัยราชภัฏอุดรธานีี</p>
     				<h1 class="wow fadeInDown heading" data-wow-delay=".4s">การประชุมวิชาการนำเสนอผลงานนักศึกษา	ระดับปริญญาตรี ประจำปี 2562
     				</h1>
     				<a href="#login" class="fadeInLeft wow btn btn-common btn-lg" data-wow-delay=".6s">เข้าร่วม</a>
     				<a href="#schedules" class="fadeInRight wow btn btn-border btn-lg" data-wow-delay=".6s">กำหนดการ</a>
-    			</div>
+    			</div> -->
     		</div>
     	</div>
     	<a class="carousel-control-prev" href="#main-slide" role="button" data-slide="prev">
