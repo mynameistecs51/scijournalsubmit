@@ -17,6 +17,11 @@ class Datame_model extends CI_Model {
 		user_department,
 		user_status,
 		user_address,
+		(CASE
+		WHEN user_walkin = 1 THEN 'บรรยาย'
+		WHEN user_walkin = 2 THEN 'โปสเตอร์'
+		WHEN user_walkin = 3 THEN 'เข้าร่วมไม่นำเสนอ'
+		END)  AS walkin,
 		user_telephone,
 		user_mobile,
 		user_group

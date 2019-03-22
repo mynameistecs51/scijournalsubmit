@@ -38,9 +38,10 @@ class Authen extends CI_Controller {
 				'user_department' => $this->input->post('department'),
 				'user_status' => $this->input->post('status'),
 				'user_address' => $this->input->post('address'),
+				'user_walkin' => $this->input->post('walkin'),
 				'user_telephone' => $this->input->post('telephone'),
 				'user_mobile' => $this->input->post('mobile'),
-				'user_group' => '2',//$this->input->post('group')
+				'user_group' => '2',// 2 user หรือผู้เข้าร่วม
 			);
 			$this->crud_model->Insert('user', $data);
 			redirect(base_url('index.php/welcome/#login'),'refresh');

@@ -40,7 +40,7 @@
 				<input type="hidden" name="user_id" value="<?php echo $dataLogin; ?>" >
 				<input type="hidden" name="regis_id" value="<?php echo $dataRegis['regis_id']; ?>">
 				<div class="form-row">
-					<div class="col-md-12 mb-3">
+					<div class="col-md-12 ">
 						<label> <b> หัวหน้าโครงการ </b> </label>
 					</div>
 				</div>
@@ -67,43 +67,43 @@
 						</div>
 					</div>
 				</div>
-				<div class="form-row">
+				<!-- <div class="form-row">
 					<div class="col-md-12 mb-3">
 						<label> <b> ผู้ร่วมพัฒนา </b>
-							<!-- <small class="text-danger"><i> ( ใส่ชื่อผู้ร่วมพัฒนาได้ 1 คนเท่านั้น ) </i></small> -->
+							<small class="text-danger"><i> ( ใส่ชื่อผู้ร่วมพัฒนาได้ 1 คนเท่านั้น ) </i></small>
 						</label>
 					</div>
-				</div>
-				<div class="form-row">
+				</div> -->
+				<!-- <div class="form-row">
 					<div class="col-md-2 mb-3">
 						<label for="prefixnameteam"> คำนำหน้าชื่อ </label>
-						<input type="text" class="form-control form-control-sm" id="prefixnameteam" name="prefixnameteam" value="<?php echo $dataRegis['regis_prenameteam']; ?>">
+						<input type="text" class="form-control form-control-sm" id="prefixnameteam" name="prefixnameteam" value="<?php //echo $dataRegis['regis_prenameteam']; ?>">
 						<div class="invalid-feedback">
 							กรุณากรอกข้อมูล คำนำหน้าชื่อ!
 						</div>
 					</div>
 					<div class="col-md-5 mb-3">
 						<label for="nameteam"> ชื่อ</label>
-						<input type="text" class="form-control form-control-sm" id="nameteam" name="nameteam" value="<?php echo $dataRegis['regis_nameteam']; ?>">
+						<input type="text" class="form-control form-control-sm" id="nameteam" name="nameteam" value="<?php //echo $dataRegis['regis_nameteam']; ?>">
 						<div class="invalid-feedback">
 							กรุณากรอกข้อมูล ชื่อ!
 						</div>
 					</div>
 					<div class="col-md-5 mb-3">
 						<label for="lastnameteam"> นามสกุล </label>
-						<input type="text" class="form-control form-control-sm" id="lastnameteam" name="lastnameteam" value="<?php echo $dataRegis['regis_lastnameteam']; ?>">
+						<input type="text" class="form-control form-control-sm" id="lastnameteam" name="lastnameteam" value="<?php //echo $dataRegis['regis_lastnameteam']; ?>">
 						<div class="invalid-feedback">
 							กรุณากรอกข้อมูล นามสกุล!
 						</div>
 					</div>
-					<!-- <div class="col-md-2 mb-3">
+					<div class="col-md-2 mb-3">
 						<label>&nbsp; </label>
 						<input type="button" name="test" class="form-control form-control-sm">
 						<span class="btn btn-primary float-right col-12" > <i class="fa fa-plus"></i></span>
-					</div> -->
-				</div>
+					</div>
+				</div> -->
 				<div class="form-row">
-					<div class="col-md-12 mb-3">
+					<div class="col-md-12">
 						<label> <b> อาจารย์ที่ปรึกษา </b> </label>
 					</div>
 				</div>
@@ -168,33 +168,7 @@
 					</div>
 				</div>
 
-
 				<div class="form-row">
-					<div class="col-md-12 mb-3">
-						<label><b> มีความประสงค์เข้าร่วมประชุม </b> </label>
-					</div>
-				</div>
-				<div class="form-row">
-					<div class="col-md-6 mb-3">
-						<label for="walkin"> เข้าร่วมประชุมและนำเสนอผลงานวิจัย / ผลงานวิชาการ </label>
-						<div class="input-group">
-							<div class="form-check form-check-inline">
-								<?php $checkoral = ($dataRegis['regis_walkin'] == 'บรรยาย')? "checked":""; ?>
-								<input class="form-check-input" type="radio" name="walkin" id="walkinoral" value="1" <?php echo $checkoral; ?> >
-								<label class="form-check-label" for="walkinoral"> ภาคบรรยาย </label>
-							</div>
-							<div class="form-check form-check-inline">
-								<?php $checkposter = ($dataRegis['regis_walkin'] == 'โปสเตอร์')? "checked":""; ?>
-								<input class="form-check-input" type="radio" name="walkin" id="walkinposter" value="2" <?php echo $checkposter; ?> >
-								<label class="form-check-label" for="walkinposter"> ภาคนิทรรศการ(โปสเตอร์) </label>
-							</div>
-							<div class="form-check form-check-inline">
-								<?php $checknotpresent = ($dataRegis['regis_walkin'] == 'เข้าร่วมไม่นำเสนอ')? "checked":""; ?>
-								<input class="form-check-input" type="radio" name="walkin" id="walkinnotpresention" value="3" <?php echo $checknotpresent; ?> >
-								<label class="form-check-label" for="walkinnotpresention"> เข้าร่วมประชุมวิชาการไม่นำเสนอผลงาน </label>
-							</div>
-						</div>
-					</div>
 					<div class="col-md-6 mb-3">
 						<label for="group"> เข้าร่วมในกลุ่มสาขา </label>
 						<select name="titleselect" class="custom-select ">

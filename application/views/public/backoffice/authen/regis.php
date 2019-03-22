@@ -119,20 +119,37 @@
 					<div class="form-row">
 						<div class="col-md-12 mb-3">
 							<label for="address">ที่อยู่ (ที่สามารถติดต่อได้) </label>
-							<textarea name="address" id="address" class="form-control" required></textarea>
+							<textarea name="address" id="address" class="form-control"></textarea>
 							<div class="invalid-feedback">
 								กรุณากรอกข้อมูล ที่อยู่ที่สามารถติดต่อได้.
 							</div>
 						</div>
 					</div>
 					<div class="form-row">
-						<div class="col-md-6 mb-3">
+						<div class="col-md-5 mb-3">
+						<label for="walkin"> เข้าร่วมประชุมและนำเสนอผลงานวิจัย / ผลงานวิชาการ </label>
+						<div class="input-group">
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="walkin" id="walkinoral" value="1" checked>
+								<label class="form-check-label" for="walkinoral"> ภาคบรรยาย </label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="walkin" id="walkinposter" value="2">
+								<label class="form-check-label" for="walkinposter"> ภาคนิทรรศการ(โปสเตอร์) </label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="walkin" id="walkinnotpresention" value="3">
+								<label class="form-check-label" for="walkinnotpresention"> เข้าร่วมประชุมวิชาการไม่นำเสนอผลงาน </label>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-3 mb-3">
 							<label for="telephone"> โทรศัพท์</label>
 							<input type="tel" class="form-control" name="telephone" placeholder="042 000 000">
 						</div>
-						<div class="col-md-6 mb-3">
+						<div class="col-md-4 mb-3">
 							<label for="mobile"> มือถือ</label>
-							<input type="tel" class="form-control" name="mobile" placeholder="081 111 1111" required>
+							<input type="tel" class="form-control" name="mobile" placeholder="081 111 1111">
 							<div class="invalid-feedback">
 								กรุณากรอกข้อมูล มือถือ.
 							</div>

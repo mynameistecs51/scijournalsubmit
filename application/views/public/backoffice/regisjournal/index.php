@@ -15,7 +15,7 @@
 			<form class="needs-validation" novalidate enctype="multipart/form-data" accept-charset="utf-8">
 				<input type="hidden" name="user_id" value="<?php echo $dataLogin; ?>" >
 				<div class="form-row">
-					<div class="col-md-12 mb-3">
+					<div class="col-md-12">
 						<label> <b> หัวหน้าโครงการ </b> </label>
 					</div>
 				</div>
@@ -42,14 +42,14 @@
 						</div>
 					</div>
 				</div>
-				<div class="form-row">
+				<!-- <div class="form-row">
 					<div class="col-md-12 mb-3">
 						<label> <b> ผู้ร่วมพัฒนา </b>
 							<small class="text-danger"><i> ( ใส่ชื่อผู้ร่วมพัฒนาได้ 1 คนเท่านั้น ) </i></small>
 						</label>
 					</div>
-				</div>
-				<div class="form-row">
+				</div> -->
+				<!-- <div class="form-row">
 					<div class="col-md-2 mb-3">
 						<label for="prefixnameteam"> คำนำหน้าชื่อ </label>
 						<input type="text" class="form-control form-control-sm" id="prefixnameteam" name="prefixnameteam">
@@ -71,14 +71,14 @@
 							กรุณากรอกข้อมูล นามสกุล!
 						</div>
 					</div>
-					<!-- <div class="col-md-2 mb-3">
+					<div class="col-md-2 mb-3">
 						<label>&nbsp; </label>
 						<input type="button" name="test" class="form-control form-control-sm">
 						<span class="btn btn-primary float-right col-12" > <i class="fa fa-plus"></i></span>
-					</div> -->
-				</div>
+					</div>
+				</div> -->
 				<div class="form-row">
-					<div class="col-md-12 mb-3">
+					<div class="col-md-12">
 						<label> <b> อาจารย์ที่ปรึกษา </b> </label>
 					</div>
 				</div>
@@ -144,13 +144,13 @@
 				</div>
 
 
-				<div class="form-row">
+				<!-- <div class="form-row">
 					<div class="col-md-12 mb-3">
 						<label><b> มีความประสงค์เข้าร่วมประชุม </b> </label>
 					</div>
-				</div>
+				</div> -->
 				<div class="form-row">
-					<div class="col-md-6 mb-3">
+					<!-- <div class="col-md-6 mb-3">
 						<label for="walkin"> เข้าร่วมประชุมและนำเสนอผลงานวิจัย / ผลงานวิชาการ </label>
 						<div class="input-group">
 							<div class="form-check form-check-inline">
@@ -166,7 +166,7 @@
 								<label class="form-check-label" for="walkinnotpresention"> เข้าร่วมประชุมวิชาการไม่นำเสนอผลงาน </label>
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<div class="col-md-6 mb-3">
 						<label for="group"> เข้าร่วมในกลุ่มสาขา </label>
 						<select name="titleselect" class="custom-select ">

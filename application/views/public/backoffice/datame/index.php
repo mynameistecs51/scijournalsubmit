@@ -124,20 +124,40 @@
         <div class="form-row">
           <div class="col-md-12 mb-3">
             <label for="address">ที่อยู่ (ที่สามารถติดต่อได้) </label>
-            <textarea name="address" id="address" class="form-control" required><?php echo $me['user_address']; ?></textarea>
+            <textarea name="address" id="address" class="form-control"><?php echo $me['user_address']; ?></textarea>
             <div class="invalid-feedback">
               กรุณากรอกข้อมูล ที่อยู่ที่สามารถติดต่อได้.
             </div>
           </div>
         </div>
         <div class="form-row">
-          <div class="col-md-6 mb-3">
+        		<div class="col-md-5 mb-3">
+						<label for="walkin"> เข้าร่วมประชุมและนำเสนอผลงานวิจัย / ผลงานวิชาการ </label>
+						<div class="input-group">
+							<div class="form-check form-check-inline">
+								<?php $checkoral = ($me['user_walkin'] == 'บรรยาย')? "checked":""; ?>
+								<input class="form-check-input" type="radio" name="walkin" id="walkinoral" value="1" <?php echo $checkoral; ?> >
+								<label class="form-check-label" for="walkinoral"> ภาคบรรยาย </label>
+							</div>
+							<div class="form-check form-check-inline">
+								<?php $checkposter = ($me['user_walkin'] == 'โปสเตอร์')? "checked":""; ?>
+								<input class="form-check-input" type="radio" name="walkin" id="walkinposter" value="2" <?php echo $checkposter; ?> >
+								<label class="form-check-label" for="walkinposter"> ภาคนิทรรศการ(โปสเตอร์) </label>
+							</div>
+							<div class="form-check form-check-inline">
+								<?php $checknotpresent = ($me['user_walkin'] == 'เข้าร่วมไม่นำเสนอ')? "checked":""; ?>
+								<input class="form-check-input" type="radio" name="walkin" id="walkinnotpresention" value="3" <?php echo $checknotpresent; ?> >
+								<label class="form-check-label" for="walkinnotpresention"> เข้าร่วมประชุมวิชาการไม่นำเสนอผลงาน </label>
+							</div>
+						</div>
+					</div>
+          <div class="col-md-3 mb-3">
             <label for="telephone"> โทรศัพท์</label>
             <input type="tel" class="form-control" name="telephone" placeholder="042 000 000" value="<?php echo $me['user_telephone']; ?>">
           </div>
-          <div class="col-md-6 mb-3">
+          <div class="col-md-4 mb-3">
             <label for="mobile"> มือถือ</label>
-            <input type="tel" class="form-control" name="mobile" placeholder="081 111 1111" value="<?php echo $me['user_mobile']; ?>" required>
+            <input type="tel" class="form-control" name="mobile" placeholder="081 111 1111" value="<?php echo $me['user_mobile']; ?>">
             <div class="invalid-feedback">
               กรุณากรอกข้อมูล มือถือ.
             </div>

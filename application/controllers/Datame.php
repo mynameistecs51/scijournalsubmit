@@ -35,6 +35,7 @@ class Datame extends CI_Controller
 				'user_department' => $rowMe->user_department,
 				'user_status'     => $rowMe->user_status,
 				'user_address'    => str_replace('<br>',"\n",$rowMe->user_address),
+				'user_walkin'			=> $rowMe->walkin,
 				'user_telephone'  => $rowMe->user_telephone,
 				'user_mobile'     => $rowMe->user_mobile,
 			);
@@ -55,6 +56,7 @@ class Datame extends CI_Controller
 				'user_department' => $this->input->post('department'),
 				'user_status'     => $this->input->post('status'),
 				'user_address'    => str_replace("<br>\n", "<br>", $this->input->post('address')),
+				'user_walkin'			=> $this->input->post('walkin'),
 				'user_telephone'  => $this->input->post('telephone'),
 				'user_mobile'     => $this->input->post('mobile'),
 			);
