@@ -21,6 +21,11 @@ class Settingrole_model extends CI_Model {
 		u.user_mobile,
 		u.user_group,
 		u.dt_create AS createUser,
+		(CASE
+		WHEN u.user_walkin = 1 THEN 'บรรยาย'
+		WHEN u.user_walkin = 2 THEN 'โปสเตอร์'
+		WHEN u.user_walkin = 3 THEN 'เข้าร่วมไม่นำเสนอ'
+		END)  AS walkin,
 		ug.usergroup_id,
 		ug.usergroup_name,
 		rj.regis_id,
@@ -42,11 +47,6 @@ class Settingrole_model extends CI_Model {
 		pay.pay_time,
 		pay.pay_file,
 		pay.dt_create AS createPay,
-		(CASE
-		WHEN rj.regis_walkin = 1 THEN 'บรรยาย'
-		WHEN rj.regis_walkin = 2 THEN 'โปสเตอร์'
-		WHEN rj.regis_walkin = 3 THEN 'เข้าร่วมไม่นำเสนอ'
-		END)  AS walkin,
 		t.title_id,
 		t.title_group,
 		t.title_name

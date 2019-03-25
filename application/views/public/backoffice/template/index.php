@@ -2,15 +2,34 @@
 
 	<div class="row">
 		<div class="col-md-12">
-			<p>Download Template</p>
+			<p>Download File Template</p>
 		</div>
 	</div>
 
 	<div class="row ">
 		<div class="col-md-12">
-
-			<?php echo anchor('index.php/template/downloadTemplate/paper', '<p class="h2 text-success"> >> DOWNLOD  TEMPLATE FULL PAPER << </p>','target="_blank"'); ?>
-			<?php echo anchor('index.php/template/downloadTemplate/oral', '<p class="h2 text-success"> >> DOWNLOD  TEMPLATE ORAL POSTER << </p>','target="_blank"'); ?>
+			<table class="border table table-hover">
+				<thead class="bg-light text-center">
+					<tr>
+						<th class="border border-info">รายการ</th>
+						<th class="border border-info">.docx</th>
+						<th class="border border-info">.pptx</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="border border-warning"> DOWNLOD  TEMPLATE FULL PAPER</td>
+						<td class="border border-warning text-center"> <?php echo anchor('index.php/template/downloadTemplate/paper', '<i class="fa fa-download fa-2x"></i>','target="_blank"'); ?></td>
+						<td class="border border-warning"> </td>
+					</tr>
+					<tr>
+						<td class="border border-warning"> DOWNLOD  TEMPLATE ORAL POSTER</td>
+						<td class="border border-warning"> </td>
+						<td class="border border-warning text-center"> <?php echo anchor('index.php/template/downloadTemplate/oral', '<i class="fa fa-download fa-2x"></i>','target="_blank"'); ?></td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 	</div>
+
 </div>
