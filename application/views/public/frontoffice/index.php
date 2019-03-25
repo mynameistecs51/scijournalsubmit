@@ -21,6 +21,10 @@
 							<td class="col-6 border border-info text-danger" style="width: 50%;">วันที่ 10 เมษายน 2562</td>
 						</tr>
 						<tr>
+							<td class="col-6 border border-info " style="width: 50%;">ประกาศรายชื่อผู้นำเสนอผลงานแบบปากเปล่า และโปสเตอร์</td>
+								<td class="col-6 border border-info " style="width: 50%;"> 29 เมษายน 2562</td>
+						</tr>
+						<tr>
 							<td class="col-6 border border-info " style="width: 50%;">การประชุมวิชาการนำเสนอผลงานนักศึกษาระดับปริญญาตรี ประจำปี 2562</td>
 							<td class="col-6 border border-info font-weight-bold" style="width: 50%;"> วันที่ 15 พฤษภาคม 2562 </td>
 						</tr>
