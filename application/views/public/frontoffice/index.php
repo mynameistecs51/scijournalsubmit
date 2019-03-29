@@ -22,7 +22,7 @@
 						</tr>
 						<tr>
 							<td class="col-6 border border-info " style="width: 50%;">ประกาศรายชื่อผู้นำเสนอผลงานแบบปากเปล่า และโปสเตอร์</td>
-								<td class="col-6 border border-info " style="width: 50%;"> 29 เมษายน 2562</td>
+							<td class="col-6 border border-info " style="width: 50%;"> 29 เมษายน 2562</td>
 						</tr>
 						<tr>
 							<td class="col-6 border border-info " style="width: 50%;">การประชุมวิชาการนำเสนอผลงานนักศึกษาระดับปริญญาตรี ประจำปี 2562</td>
@@ -753,9 +753,38 @@
 <!-- Login Section End -->
 
 <!--=============================
+=            SPEAKER            =
+==============================-->
+
+<section id="speaker" class="section-padding bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title-header text-center">
+					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s"> SPEAKER </h1>
+					<p class="wow fadeInDown" data-wow-delay="0.2s"> <!-- ข้อความ --> </p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="form-row col-sm-12 mx-auto">
+				<object data="<?php echo base_url('assets/file_speaker/speaker.pdf');?>" type="application/pdf" style="width: 100%;height: 1200px;">
+					<!-- support older browsers -->
+					<embed src="<?php echo base_url('assets/file_speaker/speaker.pdf');?>" type="application/pdf" style="width: 100%;height: 1200px;"/>
+					<!-- For those without native support, no pdf plugin, or no js -->
+					<p>It appears you do not have PDF support in this web browser. <a href="<?php echo base_url('assets/file_speaker/speaker.pdf');?>" target="_blank">Click here to download the document.</a></p>
+				</object>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of SPEAKER  ====-->
+
+<!--=============================
 =            contact            =
 ==============================-->
-<section id="contact" class="section-padding bg-light">
+<section id="contact" class="section-padding">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">

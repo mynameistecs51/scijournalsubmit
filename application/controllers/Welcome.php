@@ -35,4 +35,14 @@ class Welcome extends CI_Controller {
 		$this->load->view('public/frontoffice/welcome/fee');
 	}
 
+	public function readfile()
+	{
+		$this->load->helper('file');
+		// $data = file_get_contents(base_url().'files_upload/file_document/'.$file_name);
+		$path = base_url('assets/file_speaker/speaker.pdf');
+
+		echo  $path = fopen($path,'r');
+		var_dump($path);
+	}
+
 }

@@ -30,11 +30,11 @@
  							กำหนดการ
  						</a>
  					</li>
- 				<!-- 	<li class="nav-item">
- 						<a class="nav-link" href="#team">
+ 					<li class="nav-item">
+ 						<a class="nav-link" href="#speaker">
  							Speakers
  						</a>
- 					</li> -->
+ 					</li>
  					<!-- <li class="nav-item">
  						<a class="nav-link" href="#gallery">
  							Gallery
@@ -93,9 +93,9 @@
       	<li>
       		<a class="page-scroll" href="#schedules">schedules</a>
       	</li>
-      	<!-- <li>
-      		<a class="page-scroll" href="#team">Speakers</a>
-      	</li> -->
+      	<li>
+      		<a class="page-scroll" href="#speaker">Speakers</a>
+      	</li>
       <!-- 	<li>
       		<a class="page-scroll" href="#gallery">Gallery</a>
       	</li> -->
