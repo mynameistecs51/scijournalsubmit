@@ -13,6 +13,7 @@
 					<tr>
 						<th class="border border-info">รายการ</th>
 						<th class="border border-info">.docx</th>
+						<th class="border border-info">.pdf</th>
 						<th class="border border-info">.pptx</th>
 					</tr>
 				</thead>
@@ -21,9 +22,17 @@
 						<td class="border border-warning"> DOWNLOD  TEMPLATE FULL PAPER</td>
 						<td class="border border-warning text-center"> <?php echo anchor('index.php/template/downloadTemplate/paper', '<i class="lni-download size-sm"></i>','target="_blank"'); ?></td>
 						<td class="border border-warning"> </td>
+						<td class="border border-warning"> </td>
+					</tr>
+					<tr>
+						<td class="border border-warning"> DOWNLOD  TEMPLATE FULL PAPER ENGLISH</td>
+						<td class="border border-warning text-center"> <?php echo anchor('index.php/template/downloadTemplate/engpaper', '<i class="lni-download size-sm"></i>','target="_blank"'); ?></td>
+						<td class="border border-warning text-center"> <?php echo anchor('index.php/template/downloadTemplate/engpaperpdf', '<i class="lni-download size-sm"></i>','target="_blank"'); ?></td>
+						<td class="border border-warning"> </td>
 					</tr>
 					<tr>
 						<td class="border border-warning"> DOWNLOD  TEMPLATE ORAL POSTER</td>
+						<td class="border border-warning"> </td>
 						<td class="border border-warning"> </td>
 						<td class="border border-warning text-center"> <?php echo anchor('index.php/template/downloadTemplate/oral', '<i class="lni-download size-sm"></i>','target="_blank"'); ?></td>
 					</tr>

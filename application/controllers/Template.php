@@ -24,8 +24,18 @@ class Template extends CI_Controller {
 	{
 		switch ($file) {
 			case 'paper':
-			$Fdata = file_get_contents(base_url('assets/files_template/tempalte_paper.doc'));
+			$Fdata = file_get_contents(base_url('assets/files_template/template_paper.doc'));
 			$Fname = str_replace(" ", "_", "Template_paper_2019.doc");
+			force_download($Fname,$Fdata);
+			break;
+			case 'engpaper':
+			$Fdata = file_get_contents(base_url('assets/files_template/template_engpaper.doc'));
+			$Fname = str_replace(" ", "_", "Template_eng_paper_2019.doc");
+			force_download($Fname,$Fdata);
+			break;
+			case 'engpaperpdf':
+			$Fdata = file_get_contents(base_url('assets/files_template/template_engpaper.pdf'));
+			$Fname = str_replace(" ", "_", "Template_eng_paperpdf_2019.pdf");
 			force_download($Fname,$Fdata);
 			break;
 
