@@ -123,33 +123,33 @@
 						</div>
 					</div>
 
-					<div class="form-row">
+					<!-- <div class="form-row">
 						<div class="col-md-12">
 							<label> <b><u> ผู้ร่วมพัฒนา </u></b>
 								<small class="text-danger"></small>
 							</label>
 						</div>
-					</div>
-					<div class="form-row">
+					</div> -->
+					<!-- <div class="form-row">
 						<div class="col-md-3 mb-3">
-							<input type="text" class="form-control-plaintext" id="prefixnameteam" name="prefixnameteam" value="<?php echo $datateam['regis_prenameteam']; ?>" disabled required>
+							<input type="text" class="form-control-plaintext" id="prefixnameteam" name="prefixnameteam" value="<?php //echo $datateam['regis_prenameteam']; ?>" disabled required>
 							<div class="invalid-feedback">
 								กรุณากรอกข้อมูล คำนำหน้าชื่อ!
 							</div>
 						</div>
 						<div class="col-md-4 mb-3">
-							<input type="text" class="form-control-plaintext" id="nameteam" name="nameteam" value="<?php echo $datateam['regis_nameteam']; ?>" disabled required>
+							<input type="text" class="form-control-plaintext" id="nameteam" name="nameteam" value="<?php //echo $datateam['regis_nameteam']; ?>" disabled required>
 							<div class="invalid-feedback">
 								กรุณากรอกข้อมูล ชื่อ!
 							</div>
 						</div>
 						<div class="col-md-5 mb-3">
-							<input type="text" class="form-control-plaintext" id="lastnameteam" name="lastnameteam" value="<?php echo $datateam['regis_lastnameteam']; ?>" disabled required>
+							<input type="text" class="form-control-plaintext" id="lastnameteam" name="lastnameteam" value="<?php //echo $datateam['regis_lastnameteam']; ?>" disabled required>
 							<div class="invalid-feedback">
 								กรุณากรอกข้อมูล นามสกุล!
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<div class="form-row">
 						<div class="col-md-12">
 							<label> <b><u> อาจารย์ที่ปรึกษา </u></b> </label>

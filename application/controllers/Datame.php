@@ -20,7 +20,42 @@ class Datame extends CI_Controller
 		}
 	}
 
+
 	public function index()
+	{
+		$team = $this->datame_model->detailMe($this->data['dataLogin']);
+		foreach ($team as $fieldteam) {
+			$this->data['datateam'] = array(
+				'user_department'				=> $fieldteam->user_department,
+				'user_prefixname'				=> $fieldteam->user_prefixname,
+				'user_name'							=> $fieldteam->user_name,
+				'user_lastname'					=> $fieldteam->user_lastname,
+				'regis_id'							=> $fieldteam->regis_id,
+				'regis_prenamehead'     => $fieldteam->regis_prenamehead,
+				'regis_namehead'        => $fieldteam->regis_namehead,
+				'regis_lastnamehead'    => $fieldteam->regis_lastnamehead,
+				'regis_prenameteam'     => $fieldteam->regis_prenameteam,
+				'regis_nameteam'        => $fieldteam->regis_nameteam,
+				'regis_lastnameteam'    => $fieldteam->regis_lastnameteam,
+				'regis_prenameadvisor'  => $fieldteam->regis_prenameadvisor,
+				'regis_projectnameThai' => $fieldteam->regis_projectnameThai,
+				'regis_projectnameEng'  => $fieldteam->regis_projectnameEng,
+				'regis_nameadvisor'     => $fieldteam->regis_nameadvisor,
+				'regis_lastnameadvisor' => $fieldteam->regis_lastnameadvisor,
+				'regis_walkin'          => $fieldteam->walkin,
+				'title_name'            => $fieldteam->title_name,
+				'title_group'           => $fieldteam->title_group,
+				'pay_id'								=> $fieldteam->pay_id,
+				'pay_status'						=> $fieldteam->pay_status,
+				'pay_file'							=> $fieldteam->pay_file,
+				'pay_bank'							=> $fieldteam->pay_bank,
+				'pay_time'							=> $fieldteam->pay_time,
+			);
+		}
+		$this->app->render('รายละเอียด', $this->layout.'detail', $this->data, true);
+	}
+
+	public function editMe()
 	{
 		$dataMe = $this->datame_model->getuser($this->data['dataLogin']);
 		foreach ($dataMe as $rowMe) {
