@@ -53,6 +53,12 @@ class Report extends CI_Controller {
 		// $this->data['']
 		$this->app->render('Report Data Journal', $this->layout.'/index', $this->data, true);
 	}
+	public function all()
+	{
+		$this->data['paper'] = $this->report_model->getpaperAll();
+		// $this->data['']
+		$this->app->render('Report Data Journal', $this->layout.'/index', $this->data, true);
+	}
 
 	public function downloadPaper($id='')
 	{

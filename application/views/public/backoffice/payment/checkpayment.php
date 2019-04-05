@@ -40,14 +40,14 @@
 										echo $statusdoc = (!empty($rowpay->createRegis))?"<i class='text-success'>ส่งบทความแล้ว</i>":"<i class='text-danger'>ยังไม่ส่งบทความ</i>";
 										?>
 									</td>
-									<td><?php echo $title = ($rowpay->title_name != '')?$rowpay->title_name.'<u><b>('.$rowpay->walkin.')</b></u>':''; ?></td>
+									<td><?php echo $title = ($rowpay->title_name != '')?$rowpay->title_name.'<u><b>('.$rowpay->walkin.')</b></u>': $rowpay->walkin; ?></td>
 									<td><?php echo $rowpay->user_department; ?></td>
 									<td><?php echo $rowpay->user_mobile; ?></td>
 									<td>
 										<?php
 										switch ($rowpay->pay_status) {
 											case 'SUCCESS':
-											echo '<i class="text-success success" id="success'.$rowpay->pay_id.'" data-id="'.$rowpay->pay_id.'" data-container="body" data-toggle="popover" data-placement="left" title="'.$rowpay->regis_projectnameThai.'" data-content="" data-img="'.$rowpay->pay_file.'">ตรวจสอบแล้ว</i>';
+											echo '<i class="text-success success" id="success'.$rowpay->pay_id.'" data-id="'.$rowpay->pay_id.'" data-container="body" data-toggle="popover" data-placement="left" data-title="'.$rowpay->regis_projectnameThai.' " data-content="" data-img="'.$rowpay->pay_file.'">ตรวจสอบแล้ว</i>';
 											break;
 											case 'WAIT':
 											echo '<i class="text-warning wait" id="wait'.$rowpay->pay_id.'" data-id="'.$rowpay->pay_id.'" data-container="body" data-toggle="popover" data-placement="left" title="'.$rowpay->regis_projectnameThai.'" data-content="" data-img="'.$rowpay->pay_file.'">รอตรวจสอบ</i>';

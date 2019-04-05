@@ -79,14 +79,32 @@
  					<div class="social-box twitter">
  						<i class="fa fa-bar-chart" aria-hidden="true"></i>
  						<?php
- 						$countCSIT = array();
- 						foreach ($paper as $rowcsit) {
- 							if($rowcsit->user_group != 3 ){
- 								array_push($countCSIT, $rowcsit->user_name );
+ 						$countMatch = array();
+ 						foreach ($paper as $rowmatch) {
+ 							if($rowmatch->user_group != 3 ){
+ 								array_push($countMatch, $rowmatch->user_name );
  							}
  						} ?>
- 						<strong><span class="count"><?php echo $countUser =count($countCSIT); ?></span> PAPER </strong>
+ 						<strong><span class="count"><?php echo $countUser =count($countMatch); ?></span> PAPER </strong>
  						<p class="h6 pb-4">คณิตศาสตร์และสถิติ  </p>
+ 					</div>
+ 					<!--/social-box-->
+ 				</div><!--/.col-->
+ 			<?php endif; ?>
+
+ 			<?php if($this->uri->segment(2) == 'all'):?>
+ 				<div class="col-lg-3 col-md-6">
+ 					<div class="social-box twitter">
+ 						<i class="fa fa-bar-chart" aria-hidden="true"></i>
+ 						<?php
+ 						$countAll = array();
+ 						foreach ($paper as $rowall) {
+ 							if($rowall->user_group != 3 && $rowall->user_group != 1 ){
+ 								array_push($countAll, $rowall->user_name );
+ 							}
+ 						} ?>
+ 						<strong><span class="count"><?php echo count($countAll); ?></span> PAPER </strong>
+ 						<p class="h6 pb-4">ทั้งหมดที่เข้าร่วม  </p>
  					</div>
  					<!--/social-box-->
  				</div><!--/.col-->
@@ -121,7 +139,7 @@
  								<tr id='<?php echo 'trrow'.$rowpay->pay_id; ?>' data-id='<?php echo $rowpay->pay_id; ?>'>
  									<td><?php echo $i++; ?></td>
  									<td><?php echo $rowpay->user_prefixname.' '.$rowpay->user_name.' '.$rowpay->user_lastname; ?></td>
- 									<td><?php echo anchor('index.php/report/downloadPaper/'.$rowpay->regis_id.'/'.$this->uri->segment(2), $rowpay->regis_projectnameThai, 'target="_blank"'); ?></td>
+ 									<td><?php echo $papername = ($rowpay->regis_projectnameThai == "")? "" :anchor('index.php/report/downloadPaper/'.$rowpay->regis_id.'/'.$this->uri->segment(2), $rowpay->regis_projectnameThai, 'target="_blank"'); ?></td>
  									<td>
  										<?php
  										echo $statusdoc = (!empty($rowpay->createRegis))?"<i class='text-success'>ลงทะเบียนแล้ว</i>":"<i class='text-danger'>ยังไม่ลงทะเบียน</i>";
