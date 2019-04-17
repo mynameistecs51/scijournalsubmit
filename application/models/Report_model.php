@@ -57,7 +57,7 @@ class Report_model extends CI_Model {
 		LEFT JOIN payment pay ON pay.regis_id = rj.regis_id
 		";
 		if(!empty($title)){
-			$sql .= "WHERE t.title_id = '$title'";
+			$sql .= "WHERE t.title_id = '".$title."'";
 		}
 		// $sql ."
 		// ORDER BY u.user_id ASC

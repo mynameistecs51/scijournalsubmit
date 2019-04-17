@@ -21,7 +21,7 @@ class Report extends CI_Controller {
 
 	public function health()
 	{
-		$this->data['paper'] = $this->report_model->getpaperAll(1);
+		$this->data['paper'] = $this->report_model->getpaperAll(3);
 		// $this->data['']
 		$this->app->render('Report Data Journal', $this->layout.'/index', $this->data, true);
 	}
@@ -35,7 +35,7 @@ class Report extends CI_Controller {
 
 	public function physical()
 	{
-		$this->data['paper'] = $this->report_model->getpaperAll(3);
+		$this->data['paper'] = $this->report_model->getpaperAll(1);
 		// $this->data['']
 		$this->app->render('Report Data Journal', $this->layout.'/index', $this->data, true);
 	}

@@ -5,10 +5,10 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<div class="section-title-header text-center">
-				<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s"> ชำระค่าลงทะเบียนบทความ </h1>
+			<div class="section-title-header mx-auto">
+				<h1 class="section-title wow fadeInUp text-center" data-wow-delay="0.2s"> <i class="text-danger"><!-- <u>แก้ไข</u> --> </i> ชำระค่าลงทะเบียนบทความ </h1>
 				<div class="row">
-					<div class="col-19 mx-auto">
+					<div class="col-19 mx-auto text-center">
 						<!-- <p>
 							<h4 >1. ยินดี เป็นเจ้าภาพร่วมการประชุมวิชาการ (ค่าลงทะเบียนเจ้าภาพร่วม 40,000 บาท)</h4>
 
@@ -17,21 +17,24 @@
 						<p>
 
 							<h4>
-								ค่าลงทะเบียน (สำหรับบุคคลภายนอก) 300 บาท/คน
-							</h4>
-							การนำเสนอแบบบรรยาย ( ไม่เกิน 3 คน ต่อเรื่อง ) <br>
-							การนำเสนอแบบโปสเตอร์ ( ไม่เกิน 3 คน ต่อเรื่อง )
+								ค่าลงทะเบียน (สำหรับหน่วยงานภายนอก) 300 บาท/คน
+								<!-- </h4><h4> -->
+									โดยชำระค่าลงทะเบียนที่งานประชุมวิชาการฯ
+								</h4>
+								การนำเสนอแบบบรรยาย ( ไม่เกิน 3 คน ต่อเรื่อง )   / <!-- <br> -->
+								การนำเสนอแบบโปสเตอร์ ( ไม่เกิน 3 คน ต่อเรื่อง )
 
-						</p>
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="row">
+
+	<!-- <div class="row">
 		<div class="col-md-11 mx-auto">
 			<div class="row">
-				<!-- Start porject name Header -->
+				Start porject name Header
 				<div class="col-12 bg-light">
 					<div class="form-row">
 						<div class="col-md-12 mb-3 p-1">
@@ -43,9 +46,9 @@
 						</div>
 					</div>
 				</div>
-				<!-- End project name Hader -->
+				End project name Hader
 
-				<!-- upload img payment  layout Left-->
+				upload img payment  layout Left
 				<div class="col-4 bg-white ml-auto p-2">
 					<form class="needs-validation" novalidate enctype="multipart/form-data" accept-charset="utf-8">
 						<input type="hidden" name="regis_id" value="<?php echo $datateam['regis_id']; ?>">
@@ -91,9 +94,9 @@
 						</div>
 					</form>
 				</div>
-				<!-- End upload img payment -->
+				End upload img payment
 
-				<!-- Start Detail project layout right-->
+				Start Detail project layout right
 				<div class="col-8 bg-light mx-auto p-2">
 					<div class="form-row">
 						<div class="col-md-12">
@@ -102,7 +105,7 @@
 					</div>
 					<div class="form-row">
 						<div class="col-md-3 mb-3">
-							<!-- <label for="prefixnamehead" > คำนำหน้าชื่อ </label> -->
+							<label for="prefixnamehead" > คำนำหน้าชื่อ </label>
 							<input type="text" class="form-control-plaintext " id="prefixnamehead" name="prefixnamehead" value="<?php echo $datateam['regis_prenamehead']; ?>" disabled required>
 							<div class="invalid-feedback">
 								กรุณากรอกข้อมูล คำนำหน้าชื่อ!
@@ -122,14 +125,14 @@
 						</div>
 					</div>
 
-					<!-- <div class="form-row">
+					<div class="form-row">
 						<div class="col-md-12">
 							<label> <b><u> ผู้ร่วมพัฒนา </u></b>
 								<small class="text-danger"></small>
 							</label>
 						</div>
-					</div> -->
-					<!-- <div class="form-row">
+					</div>
+					<div class="form-row">
 						<div class="col-md-3 mb-3">
 							<input type="text" class="form-control-plaintext" id="prefixnameteam" name="prefixnameteam" value="<?php //echo $datateam['regis_prenameteam']; ?>" disabled required>
 							<div class="invalid-feedback">
@@ -148,7 +151,7 @@
 								กรุณากรอกข้อมูล นามสกุล!
 							</div>
 						</div>
-					</div> -->
+					</div>
 					<div class="form-row">
 						<div class="col-md-12">
 							<label> <b><u> อาจารย์ที่ปรึกษา </u></b> </label>
@@ -186,10 +189,10 @@
 					</div>
 
 				</div>
-				<!-- end Detail project -->
+				end Detail project
 			</div>
 		</div>
-	</div>
+	</div> -->
 </div>
 <!-- End Container -->
 
