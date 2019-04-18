@@ -6,14 +6,20 @@ var $ = jQuery;
   DataTable();
   showpopupAdmin();
   showpopupUser();
+
+  $('.paginate_button').click(function(){
+  	showpopupAdmin();
+  	showpopupUser();
+  });
 }(jQuery));
 
 function DataTable() {
 
 	var table = $('#tableData').DataTable({
+
 		lengthMenu: [
-		[10, 25, 50, -1],
-		[10, 25, 50, "All"]
+		[25, 50, -1],
+		[25, 50, "All"]
 		],
 		"sPaginationType": "full_numbers",
 		pagingType: 'full',
@@ -82,9 +88,10 @@ function DataTable() {
     		$(win.document.body).find('h1').css('text-align', 'center');
     	}
     }, ]
-});
+  });
 
 	table.buttons().container().appendTo('#button-tolls');
+
 }
 
 function showpopupUser() {
