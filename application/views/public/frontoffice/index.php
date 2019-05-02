@@ -1497,7 +1497,7 @@ function modal_form(n,screenname,url)
 
 function tableLife() {
 
-	var table = $('.tableLife').DataTable({
+	var table = $('#tableLife1, #tableLife2').DataTable({
 		lengthMenu: [
 		[10, 25, 50, -1],
 		[10, 25, 50, "All"]
