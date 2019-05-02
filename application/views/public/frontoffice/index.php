@@ -93,6 +93,572 @@
 
 <!--====  End of Template  ====-->
 
+<!--==================================
+=            notify paper            =
+===================================-->
+
+<section id="notify" class="notify section-padding bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title-header text-center">
+					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s"> ประกาศรายชื่อบทความ ที่ผ่านการพิจารณา</h1>
+					<p class="wow fadeInDown" data-wow-delay="0.2s"></p>
+				</div>
+			</div>
+		</div>
+		<div class="row notify-wrapper">
+			<div class=" fade-up" style="background: #fff;">
+				<nav>
+					<div class="nav nav-tabs" id="nav-tab" role="tablist">
+						<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+						<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
+						<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
+					</div>
+				</nav>
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"> 	<table id="tableLife1" class="tableLife display table table-bordered table-sm text-sm font-weight-light" width="100%" cellspacing="0" style="font-size:13px; border: 1px solid black;width: 100%;">
+						<thead class="bg-light">
+							<tr>
+								<th align="center" colspan="7">
+									<b>
+										การนำเสนอแบบบรรยาย
+									</b>
+								</th>
+							</tr>
+							<tr>
+								<th align="center">
+									เวลา
+								</th>
+								<th align="center">
+									รหัส
+								</th>
+								<th align="center">
+									ชื่อบทความ
+								</th>
+								<th align="center">
+									ผู้นำเสนอ
+								</th>
+								<th align="center">
+									อจ.ที่ปรึกษา
+								</th>
+								<th align="center">
+									สังกัด
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left">
+									13.00-13.15
+								</td>
+								<td align="center">
+									<b>
+										OB01
+									</b>
+								</td>
+								<td align="left">
+									แบคทีเรียแลคติกจากอาหารหมักพื้นบ้านและดิน
+								</td>
+								<td align="left">
+									วราภรณ์สาธิตา เพชรนาดี นฤมล กุลวงค์
+								</td>
+								<td align="left">
+									ศกุนตลา ศิริอุดม
+								</td>
+								<td align="left">
+									มรภ.อุดรธานี
+								</td>
+							</tr>
+							<tr>
+								<td align="left" height="37">
+									13.15-13.30
+								</td>
+								<td align="center">
+									<b>
+										OB02
+									</b>
+								</td>
+								<td align="left">
+									การผลิตสารสีย้อมผ้าฝ้ายและคุณสมบัติในการยับยั้งการเจริญของจุลินทรีย์ก่อโรคของสารสีย้อมที่ผลิตจากแอคติโนมัยสีท
+								</td>
+								<td align="left">
+									พรณัฐฌา เสนานน         ศุภาวรรณ โคตรมะณี
+								</td>
+								<td align="left">
+									มรภ.อุดรธานี
+								</td>
+								<td align="left">
+
+								</td>
+							</tr>
+							<tr>
+								<td align="left" height="51">
+									13.30-13.45
+								</td>
+								<td align="center">
+									<b>
+										OB03
+									</b>
+								</td>
+								<td align="left">
+									การเพาะเลี้ยงสาหร่าย Arthrospira platensis CMU2 ด้วยน้ำหมักชีวภาพจากเปลือกกล้วย
+								</td>
+								<td align="left">
+									กฤติยาณี พิมพ์สุตะ         วิยากร ชาติขูรู
+								</td>
+								<td align="left">
+									สรฉัตร เทียมดาว
+								</td>
+								<td align="left">
+									มรภ.อุดรธานี
+								</td>
+							</tr>
+							<tr>
+								<td align="left" height="73">
+									13.45-14.00
+								</td>
+								<td align="center">
+									<b>
+										OB04
+									</b>
+								</td>
+								<td align="left">
+									ความแตกต่างของหอยฝาดียวโดยใช้มอร์โฟเมตริกส์ และดีเอ็นเอบาร์โค้ด
+								</td>
+								<td align="left">
+									ธีรศักดิ์ ศิริเพ็ชร์          ณัฐภรณ์ ภูมิประหมัน     ศาสตราชัย ประสพดี
+								</td>
+								<td align="left">
+									จุฑารัตน์ กุลสันติวงศ์
+								</td>
+								<td align="left">
+									มรภ.อุดรธานี
+								</td>
+							</tr>
+							<tr>
+								<td align="left" height="51">
+									14.00-14.15
+								</td>
+								<td align="center">
+									<b>
+										OB05
+									</b>
+								</td>
+								<td align="left">
+									การศึกษาจุลสัณฐานวิทยาของผลพืชสกุลหญ้ายอนหู (วงศ์หญ้า) ในประเทศไทย
+								</td>
+								<td align="left">
+									ชนิดา วาสิงหล             ฐิติกา นพคุณโพธิ์สว่าง
+								</td>
+								<td align="left">
+									วรรณวิภา ไชยสงคราม
+								</td>
+								<td align="left">
+									มรภ.อุดรธานี
+								</td>
+							</tr>
+							<tr>
+								<td align="left">
+									14.15-14.30
+								</td>
+								<td align="center">
+									<b>
+										OB06
+									</b>
+								</td>
+								<td align="left">
+									โครโมโซมของตั๊กแตนบางชนิดในมหาวิทยาลัยราชภัฏอุดรธานี (ศูนย์การศึกษาสามพร้าว)
+								</td>
+								<td align="left">
+									นิศานารถ คนกลาง        หทัยรัตน์ ภาษี
+								</td>
+								<td align="left">
+									มรภ.อุดรธานี
+								</td>
+								<td align="left">
+
+								</td>
+							</tr>
+							<tr>
+								<td align="left">
+									14.45-15.00
+								</td>
+								<td align="center">
+									<b>
+										OB07
+									</b>
+								</td>
+								<td align="left">
+									รงควัตถุและพอลิแซ็กคาไรด์ของ Arthrospira platensis CMU02
+								</td>
+								<td align="left">
+									ศิริกุล  ศรีศาสตร์ สมประสงค์ ภูมิอินทร์
+								</td>
+								<td align="left">
+									ธนิศรา อินทโสตถิ
+								</td>
+								<td align="left">
+									มรภ.อุดรธานี
+								</td>
+							</tr>
+							<tr>
+								<td align="left" >
+									15.15-15.30
+								</td>
+								<td align="center">
+									<b>
+										OB08
+									</b>
+								</td>
+								<td align="left">
+									การออกจากโฮสต์และช่วงเวลาการมีชีวิตของพยาธิใบไม้ระยะเซอร์คาเรียในหอยฝาเดียว
+								</td>
+								<td align="left">
+									สุพัตรา สมสายผล          ภูชิตา แซ่ตัน         ศาสตราชัย ประสพดี
+								</td>
+								<td align="left">
+									จุฑารัตน์ กุลสันติวงศ์
+								</td>
+								<td align="left">
+									มรภ.อุดรธานี
+								</td>
+							</tr>
+						</tbody>
+					</table>  </div>
+					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"> <table id="tableLife2" class="tableLife display table table-bordered table-sm text-sm font-weight-light" width="100%" cellspacing="0" style="font-size:13px; border: 1px solid black;width: 100%;">
+						<thead class="bg-light">
+							<tr>
+								<td align="center" colspan="4">
+									<b>
+										การนำเสนอแบบโปสเตอร์  Session วิทยาศาสตร์ชีวภาพ
+									</b>
+								</td>
+							</tr>
+							<tr>
+								<td align="center">
+									<b>
+										รหัส
+									</b>
+								</td>
+								<td align="center">
+									<b>
+										ชื่อบทความ
+									</b>
+								</td>
+								<td align="center">
+									<b>
+										ผู้นำเสนอ
+									</b>
+								</td>
+								<td align="center">
+									<b>
+										สังกัด
+									</b>
+								</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="center">
+									<b>
+										PB01
+									</b>
+								</td>
+								<td align="left">
+									การขยายพันธุ์เอื้องไอยเรศ (Rhynchostylis retusa (L.) Blume.) โดยการเพาะเลี้ยงเนื้อเยื่อ
+								</td>
+								<td align="left">
+									วิภาณี คุณาวัฒน์           อารียา อุภัยพรม              รุจิระดา ปัญญานุวงศ์  พรนัชชา ยันนี
+								</td>
+								<td align="left">
+									มหาวิทยาลัยราชภัฎอุดรธานี
+								</td>
+							</tr>
+							<tr>
+								<td align="center">
+									<b>
+										PB02
+									</b>
+								</td>
+								<td align="left">
+									การศึกษาฤทธิ์ของสารสกัดสมุนไพรเพื่อยับยั้งเชื้อ Escherichia coli จากสิ่งแวดล้อม
+								</td>
+								<td align="left">
+									อภิญญา สุวรรณ         วราภรณ์ โนนสว่าง
+								</td>
+								<td align="left">
+									มหาวิทยาลัยราชภัฎอุดรธานี
+								</td>
+							</tr>
+							<tr>
+								<td align="center">
+									<b>
+										PB03
+									</b>
+								</td>
+								<td align="left">
+									ความชุกของพยาธิใบไม้ในปลาวงศ์ตะเพียนจากตำบลกุมภวาปีและตำบลสามพร้าว จังหวัดอุดรธานี
+								</td>
+								<td align="left">
+									สุภิญญา สมทรัพย์         แพรวนภา แสนลุน
+								</td>
+								<td align="left">
+									มหาวิทยาลัยราชภัฏอุดรธานี
+								</td>
+							</tr>
+							<tr>
+								<td align="center">
+									<b>
+										PB04
+									</b>
+								</td>
+								<td align="left">
+									การเพาะเลี้ยงสาหร่าย Arthrospira platensis CMU02 ด้วยปุ๋ยหมักชีวภาพจากผักสด
+								</td>
+								<td align="left">
+									ปณิดา แวงวรรณ            สมรัก แสงรักษา
+								</td>
+								<td align="left">
+									มหาวิทยาลัยราชภัฏอุดรธานี
+								</td>
+							</tr>
+							<tr>
+								<td align="center">
+									<b>
+										PB05
+									</b>
+								</td>
+								<td align="left">
+									การเพาะเลี้ยงสาหร่าย Arthrospira platensis CMU02 ด้วยปุ๋ยหมักจากมูลวัว
+								</td>
+								<td align="left">
+									ณัฐณิชา ฝ่ายชาวนา       อาจรีย์   ธัญญศิริ
+								</td>
+								<td align="left">
+									มหาวิทยาลัยราชภัฏอุดรธานี
+								</td>
+							</tr>
+						</tbody>
+					</table> </div>
+					<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"> 	<table id="tableLife3" class="tableLife display table table-bordered table-sm text-sm font-weight-light" cellspacing="0" style="font-size:13px; border: 1px solid black;width: 100%;">
+						<thead class="bg-light">
+							<tr>
+								<th align="center" colspan="7">
+									<b>
+										การนำเสนอแบบบรรยาย
+									</b>
+								</th>
+							</tr>
+							<tr>
+								<th align="center">
+									เวลา
+								</th>
+								<th align="center">
+									รหัส
+								</th>
+								<th align="center">
+									ชื่อบทความ
+								</th>
+								<th align="center">
+									ผู้นำเสนอ
+								</th>
+								<th align="center">
+									อจ.ที่ปรึกษา
+								</th>
+								<th align="center">
+									สังกัด
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left">
+									13.00-13.15
+								</td>
+								<td align="center">
+									<b>
+										OB01
+									</b>
+								</td>
+								<td align="left">
+									แบคทีเรียแลคติกจากอาหารหมักพื้นบ้านและดิน
+								</td>
+								<td align="left">
+									วราภรณ์สาธิตา เพชรนาดี นฤมล กุลวงค์
+								</td>
+								<td align="left">
+									ศกุนตลา ศิริอุดม
+								</td>
+								<td align="left">
+									มรภ.อุดรธานี
+								</td>
+							</tr>
+							<tr>
+								<td align="left" height="37">
+									13.15-13.30
+								</td>
+								<td align="center">
+									<b>
+										OB02
+									</b>
+								</td>
+								<td align="left">
+									การผลิตสารสีย้อมผ้าฝ้ายและคุณสมบัติในการยับยั้งการเจริญของจุลินทรีย์ก่อโรคของสารสีย้อมที่ผลิตจากแอคติโนมัยสีท
+								</td>
+								<td align="left">
+									พรณัฐฌา เสนานน         ศุภาวรรณ โคตรมะณี
+								</td>
+								<td align="left">
+									มรภ.อุดรธานี
+								</td>
+								<td align="left">
+
+								</td>
+							</tr>
+							<tr>
+								<td align="left" height="51">
+									13.30-13.45
+								</td>
+								<td align="center">
+									<b>
+										OB03
+									</b>
+								</td>
+								<td align="left">
+									การเพาะเลี้ยงสาหร่าย Arthrospira platensis CMU2 ด้วยน้ำหมักชีวภาพจากเปลือกกล้วย
+								</td>
+								<td align="left">
+									กฤติยาณี พิมพ์สุตะ         วิยากร ชาติขูรู
+								</td>
+								<td align="left">
+									สรฉัตร เทียมดาว
+								</td>
+								<td align="left">
+									มรภ.อุดรธานี
+								</td>
+							</tr>
+							<tr>
+								<td align="left" height="73">
+									13.45-14.00
+								</td>
+								<td align="center">
+									<b>
+										OB04
+									</b>
+								</td>
+								<td align="left">
+									ความแตกต่างของหอยฝาดียวโดยใช้มอร์โฟเมตริกส์ และดีเอ็นเอบาร์โค้ด
+								</td>
+								<td align="left">
+									ธีรศักดิ์ ศิริเพ็ชร์          ณัฐภรณ์ ภูมิประหมัน     ศาสตราชัย ประสพดี
+								</td>
+								<td align="left">
+									จุฑารัตน์ กุลสันติวงศ์
+								</td>
+								<td align="left">
+									มรภ.อุดรธานี
+								</td>
+							</tr>
+							<tr>
+								<td align="left" height="51">
+									14.00-14.15
+								</td>
+								<td align="center">
+									<b>
+										OB05
+									</b>
+								</td>
+								<td align="left">
+									การศึกษาจุลสัณฐานวิทยาของผลพืชสกุลหญ้ายอนหู (วงศ์หญ้า) ในประเทศไทย
+								</td>
+								<td align="left">
+									ชนิดา วาสิงหล             ฐิติกา นพคุณโพธิ์สว่าง
+								</td>
+								<td align="left">
+									วรรณวิภา ไชยสงคราม
+								</td>
+								<td align="left">
+									มรภ.อุดรธานี
+								</td>
+							</tr>
+							<tr>
+								<td align="left">
+									14.15-14.30
+								</td>
+								<td align="center">
+									<b>
+										OB06
+									</b>
+								</td>
+								<td align="left">
+									โครโมโซมของตั๊กแตนบางชนิดในมหาวิทยาลัยราชภัฏอุดรธานี (ศูนย์การศึกษาสามพร้าว)
+								</td>
+								<td align="left">
+									นิศานารถ คนกลาง        หทัยรัตน์ ภาษี
+								</td>
+								<td align="left">
+									มรภ.อุดรธานี
+								</td>
+								<td align="left">
+
+								</td>
+							</tr>
+							<tr>
+								<td align="left">
+									14.45-15.00
+								</td>
+								<td align="center">
+									<b>
+										OB07
+									</b>
+								</td>
+								<td align="left">
+									รงควัตถุและพอลิแซ็กคาไรด์ของ Arthrospira platensis CMU02
+								</td>
+								<td align="left">
+									ศิริกุล  ศรีศาสตร์ สมประสงค์ ภูมิอินทร์
+								</td>
+								<td align="left">
+									ธนิศรา อินทโสตถิ
+								</td>
+								<td align="left">
+									มรภ.อุดรธานี
+								</td>
+							</tr>
+							<tr>
+								<td align="left" >
+									15.15-15.30
+								</td>
+								<td align="center">
+									<b>
+										OB08
+									</b>
+								</td>
+								<td align="left">
+									การออกจากโฮสต์และช่วงเวลาการมีชีวิตของพยาธิใบไม้ระยะเซอร์คาเรียในหอยฝาเดียว
+								</td>
+								<td align="left">
+									สุพัตรา สมสายผล          ภูชิตา แซ่ตัน         ศาสตราชัย ประสพดี
+								</td>
+								<td align="left">
+									จุฑารัตน์ กุลสันติวงศ์
+								</td>
+								<td align="left">
+									มรภ.อุดรธานี
+								</td>
+							</tr>
+						</tbody>
+					</table> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of notify paper  ====-->
+
+
 <!-- Services Section Start -->
 <section id="services" class="services section-padding bg-light">
 	<div class="container">
@@ -262,7 +828,7 @@
 		<div class="schedule-area row wow fadeInDown" data-wow-delay="0.3s">
 			<div class="schedule-tab-title col-md-3 col-lg-3 col-xs-12">
 				<div class="table-responsive">
-					<ul class="nav nav-tabs" id="myTab" role="tablist">
+					<ul class="nav nav-tabs" id="Lift" role="tablist">
 						<li class="nav-item">
 							<a class="nav-link active" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-expanded="true">
 								<div class="item-text">
@@ -311,7 +877,7 @@
 				</div>
 			</div>
 			<div class="schedule-tab-content col-md-9 col-lg-9 col-xs-12 clearfix">
-				<div class="tab-content" id="myTabContent">
+				<div class="tab-content" id="LiftContent">
 					<!-- Start register tab -->
 					<div class="tab-pane fade show active" id="register" role="tabpanel" aria-labelledby="register-tab">
 						<div id="accordionRegiser">
@@ -771,15 +1337,15 @@
 				<object data="<?php echo base_url('assets/file_speaker/speaker.pdf');?>" type="application/pdf" style="width: 100%;height: 1200px;">
 					<!-- support older browsers -->
 					<embed src="<?php echo base_url('assets/file_speaker/speaker.pdf');?>" type="application/pdf" style="width: 100%;height: 1200px;"/>
-					<!-- For those without native support, no pdf plugin, or no js -->
-					<p>It appears you do not have PDF support in this web browser. <a href="<?php echo base_url('assets/file_speaker/speaker.pdf');?>" target="_blank">Click here to download the document.</a></p>
-				</object>
+						<!-- For those without native support, no pdf plugin, or no js -->
+						<p>It appears you do not have PDF support in this web browser. <a href="<?php echo base_url('assets/file_speaker/speaker.pdf');?>" target="_blank">Click here to download the document.</a></p>
+					</object>
+				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
-<!--====  End of SPEAKER  ====-->
+	<!--====  End of SPEAKER  ====-->
 
 <!--=============================
 =            contact            =
@@ -834,6 +1400,12 @@
 <script type="text/javascript"  src="<?php echo base_url(); ?>assets/js/jquery-min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/jquery.countdown.min.js"></script>
 
+<!-- Jquery DataTable -->
+<script src="<?php echo base_url(); ?>assets_backoffice/plugin/DataTable/pdfmake-0.1.32/pdfmake.min.js"></script>
+<script src="<?php echo base_url(); ?>assets_backoffice/plugin/DataTable/datatables.min.js"></script>
+<script src="<?php echo base_url(); ?>assets_backoffice/plugin/DataTable/Buttons-1.5.1/js/buttons.bootstrap4.min.js"></script>
+<!-- End DataTable -->
+
 <script type="text/javascript">
 	jQuery.noConflict();
 	var $ = jQuery;
@@ -853,6 +1425,7 @@
 		list();
 		template();
 		fee();
+		tableLife();
 	}(jQuery));
 
 	function countDownTime() {
@@ -920,6 +1493,48 @@ function modal_form(n,screenname,url)
 	div+='</div><!-- /.modal-dialog -->';
 	div+='</div><!-- /.modal -->';
 	$('.div_modal').html(div);
+}
+
+function tableLife() {
+
+	var table = $('.tableLife').DataTable({
+		lengthMenu: [
+		[10, 25, 50, -1],
+		[10, 25, 50, "All"]
+		],
+		"sPaginationType": "full_numbers",
+		pagingType: 'full',
+		"order": [
+		[0, 'desc']
+		],
+		"autoFill": false,
+		"ordering": true,
+		"searching": true,
+		"info": false,
+		"processing": true,
+		"paging": true,
+		"responsive": true,
+		"language": {
+			"zeroRecords": "============== ไม่พบข้อมูลที่ค้นหา ==============",
+			"emptyTable": "============== ไม่มีข้อมูลในตาราง ==============",
+			"sSearch": "ค้นหา: ",
+			"sLengthMenu": "แสดง _MENU_ รายการ",
+		},
+		"columns": [  {
+			"width": "10%"
+		}, {
+			"width": "5%"
+		}, {
+			"width": "25%",
+		}, {
+			"width": "20%",
+		}, {
+			"width": "20%"
+		},  {
+			"width": "20%"
+		},  ],
+	});
+
 }
 
 </script>

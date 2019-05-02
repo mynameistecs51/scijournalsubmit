@@ -13,3 +13,8 @@
 <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/main.css">
 <!-- Responsive Style -->
 <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/responsive.css">
+
+
+<!-- DataTable Style -->
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets_backoffice/plugin/DataTable/datatables.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets_backoffice/plugin/DataTable/Buttons-1.5.1/css/buttons.bootstrap4.min.css">
