@@ -35,11 +35,11 @@
  							Speakers
  						</a>
  					</li>
- 					<!-- <li class="nav-item">
- 						<a class="nav-link" href="#gallery">
- 							Gallery
+ 					<li class="nav-item">
+ 						<a class="nav-link" href="#notify">
+ 							ประกาศชื่อบทความ
  						</a>
- 					</li> -->
+ 					</li>
  					<!-- <li class="nav-item">
  						<a class="nav-link" href="#countdown">
  							countdown
@@ -96,9 +96,9 @@
       	<li>
       		<a class="page-scroll" href="#speaker">Speakers</a>
       	</li>
-      <!-- 	<li>
-      		<a class="page-scroll" href="#gallery">Gallery</a>
-      	</li> -->
+      	<li>
+      		<a class="page-scroll" href="#notify">ประกาศชื่อบทความ</a>
+      	</li>
       	<!-- <li>
       		<a class="page-scroll" href="#countdown">countdown</a>
       	</li> -->

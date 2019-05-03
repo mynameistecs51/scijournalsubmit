@@ -107,651 +107,114 @@
 				</div>
 			</div>
 		</div>
-		<div class="row notify-wrapper">
-			<div class=" fade-up" style="background: #fff;">
-				<nav>
-					<div class="nav nav-tabs" id="nav-tab" role="tablist">
-						<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
-						<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
-						<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
-					</div>
-				</nav>
-				<div class="tab-content" id="nav-tabContent">
-					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"> 	<table id="tableLife1" class="tableLife display table table-bordered table-sm text-sm font-weight-light" width="100%" cellspacing="0" style="font-size:13px; border: 1px solid black;width: 100%;">
-						<thead class="bg-light">
-							<tr>
-								<th align="center" colspan="7">
-									<b>
-										การนำเสนอแบบบรรยาย
-									</b>
-								</th>
-							</tr>
-							<tr>
-								<th align="center">
-									เวลา
-								</th>
-								<th align="center">
-									รหัส
-								</th>
-								<th align="center">
-									ชื่อบทความ
-								</th>
-								<th align="center">
-									ผู้นำเสนอ
-								</th>
-								<th align="center">
-									อจ.ที่ปรึกษา
-								</th>
-								<th align="center">
-									สังกัด
-								</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td align="left">
-									13.00-13.15
-								</td>
-								<td align="center">
-									<b>
-										OB01
-									</b>
-								</td>
-								<td align="left">
-									แบคทีเรียแลคติกจากอาหารหมักพื้นบ้านและดิน
-								</td>
-								<td align="left">
-									วราภรณ์สาธิตา เพชรนาดี นฤมล กุลวงค์
-								</td>
-								<td align="left">
-									ศกุนตลา ศิริอุดม
-								</td>
-								<td align="left">
-									มรภ.อุดรธานี
-								</td>
-							</tr>
-							<tr>
-								<td align="left" height="37">
-									13.15-13.30
-								</td>
-								<td align="center">
-									<b>
-										OB02
-									</b>
-								</td>
-								<td align="left">
-									การผลิตสารสีย้อมผ้าฝ้ายและคุณสมบัติในการยับยั้งการเจริญของจุลินทรีย์ก่อโรคของสารสีย้อมที่ผลิตจากแอคติโนมัยสีท
-								</td>
-								<td align="left">
-									พรณัฐฌา เสนานน         ศุภาวรรณ โคตรมะณี
-								</td>
-								<td align="left">
-									มรภ.อุดรธานี
-								</td>
-								<td align="left">
-
-								</td>
-							</tr>
-							<tr>
-								<td align="left" height="51">
-									13.30-13.45
-								</td>
-								<td align="center">
-									<b>
-										OB03
-									</b>
-								</td>
-								<td align="left">
-									การเพาะเลี้ยงสาหร่าย Arthrospira platensis CMU2 ด้วยน้ำหมักชีวภาพจากเปลือกกล้วย
-								</td>
-								<td align="left">
-									กฤติยาณี พิมพ์สุตะ         วิยากร ชาติขูรู
-								</td>
-								<td align="left">
-									สรฉัตร เทียมดาว
-								</td>
-								<td align="left">
-									มรภ.อุดรธานี
-								</td>
-							</tr>
-							<tr>
-								<td align="left" height="73">
-									13.45-14.00
-								</td>
-								<td align="center">
-									<b>
-										OB04
-									</b>
-								</td>
-								<td align="left">
-									ความแตกต่างของหอยฝาดียวโดยใช้มอร์โฟเมตริกส์ และดีเอ็นเอบาร์โค้ด
-								</td>
-								<td align="left">
-									ธีรศักดิ์ ศิริเพ็ชร์          ณัฐภรณ์ ภูมิประหมัน     ศาสตราชัย ประสพดี
-								</td>
-								<td align="left">
-									จุฑารัตน์ กุลสันติวงศ์
-								</td>
-								<td align="left">
-									มรภ.อุดรธานี
-								</td>
-							</tr>
-							<tr>
-								<td align="left" height="51">
-									14.00-14.15
-								</td>
-								<td align="center">
-									<b>
-										OB05
-									</b>
-								</td>
-								<td align="left">
-									การศึกษาจุลสัณฐานวิทยาของผลพืชสกุลหญ้ายอนหู (วงศ์หญ้า) ในประเทศไทย
-								</td>
-								<td align="left">
-									ชนิดา วาสิงหล             ฐิติกา นพคุณโพธิ์สว่าง
-								</td>
-								<td align="left">
-									วรรณวิภา ไชยสงคราม
-								</td>
-								<td align="left">
-									มรภ.อุดรธานี
-								</td>
-							</tr>
-							<tr>
-								<td align="left">
-									14.15-14.30
-								</td>
-								<td align="center">
-									<b>
-										OB06
-									</b>
-								</td>
-								<td align="left">
-									โครโมโซมของตั๊กแตนบางชนิดในมหาวิทยาลัยราชภัฏอุดรธานี (ศูนย์การศึกษาสามพร้าว)
-								</td>
-								<td align="left">
-									นิศานารถ คนกลาง        หทัยรัตน์ ภาษี
-								</td>
-								<td align="left">
-									มรภ.อุดรธานี
-								</td>
-								<td align="left">
-
-								</td>
-							</tr>
-							<tr>
-								<td align="left">
-									14.45-15.00
-								</td>
-								<td align="center">
-									<b>
-										OB07
-									</b>
-								</td>
-								<td align="left">
-									รงควัตถุและพอลิแซ็กคาไรด์ของ Arthrospira platensis CMU02
-								</td>
-								<td align="left">
-									ศิริกุล  ศรีศาสตร์ สมประสงค์ ภูมิอินทร์
-								</td>
-								<td align="left">
-									ธนิศรา อินทโสตถิ
-								</td>
-								<td align="left">
-									มรภ.อุดรธานี
-								</td>
-							</tr>
-							<tr>
-								<td align="left" >
-									15.15-15.30
-								</td>
-								<td align="center">
-									<b>
-										OB08
-									</b>
-								</td>
-								<td align="left">
-									การออกจากโฮสต์และช่วงเวลาการมีชีวิตของพยาธิใบไม้ระยะเซอร์คาเรียในหอยฝาเดียว
-								</td>
-								<td align="left">
-									สุพัตรา สมสายผล          ภูชิตา แซ่ตัน         ศาสตราชัย ประสพดี
-								</td>
-								<td align="left">
-									จุฑารัตน์ กุลสันติวงศ์
-								</td>
-								<td align="left">
-									มรภ.อุดรธานี
-								</td>
-							</tr>
-						</tbody>
-					</table>  </div>
-					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"> <table id="tableLife2" class="tableLife display table table-bordered table-sm text-sm font-weight-light" width="100%" cellspacing="0" style="font-size:13px; border: 1px solid black;width: 100%;">
-						<thead class="bg-light">
-							<tr>
-								<td align="center" colspan="4">
-									<b>
-										การนำเสนอแบบโปสเตอร์  Session วิทยาศาสตร์ชีวภาพ
-									</b>
-								</td>
-							</tr>
-							<tr>
-								<td align="center">
-									<b>
-										รหัส
-									</b>
-								</td>
-								<td align="center">
-									<b>
-										ชื่อบทความ
-									</b>
-								</td>
-								<td align="center">
-									<b>
-										ผู้นำเสนอ
-									</b>
-								</td>
-								<td align="center">
-									<b>
-										สังกัด
-									</b>
-								</td>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td align="center">
-									<b>
-										PB01
-									</b>
-								</td>
-								<td align="left">
-									การขยายพันธุ์เอื้องไอยเรศ (Rhynchostylis retusa (L.) Blume.) โดยการเพาะเลี้ยงเนื้อเยื่อ
-								</td>
-								<td align="left">
-									วิภาณี คุณาวัฒน์           อารียา อุภัยพรม              รุจิระดา ปัญญานุวงศ์  พรนัชชา ยันนี
-								</td>
-								<td align="left">
-									มหาวิทยาลัยราชภัฎอุดรธานี
-								</td>
-							</tr>
-							<tr>
-								<td align="center">
-									<b>
-										PB02
-									</b>
-								</td>
-								<td align="left">
-									การศึกษาฤทธิ์ของสารสกัดสมุนไพรเพื่อยับยั้งเชื้อ Escherichia coli จากสิ่งแวดล้อม
-								</td>
-								<td align="left">
-									อภิญญา สุวรรณ         วราภรณ์ โนนสว่าง
-								</td>
-								<td align="left">
-									มหาวิทยาลัยราชภัฎอุดรธานี
-								</td>
-							</tr>
-							<tr>
-								<td align="center">
-									<b>
-										PB03
-									</b>
-								</td>
-								<td align="left">
-									ความชุกของพยาธิใบไม้ในปลาวงศ์ตะเพียนจากตำบลกุมภวาปีและตำบลสามพร้าว จังหวัดอุดรธานี
-								</td>
-								<td align="left">
-									สุภิญญา สมทรัพย์         แพรวนภา แสนลุน
-								</td>
-								<td align="left">
-									มหาวิทยาลัยราชภัฏอุดรธานี
-								</td>
-							</tr>
-							<tr>
-								<td align="center">
-									<b>
-										PB04
-									</b>
-								</td>
-								<td align="left">
-									การเพาะเลี้ยงสาหร่าย Arthrospira platensis CMU02 ด้วยปุ๋ยหมักชีวภาพจากผักสด
-								</td>
-								<td align="left">
-									ปณิดา แวงวรรณ            สมรัก แสงรักษา
-								</td>
-								<td align="left">
-									มหาวิทยาลัยราชภัฏอุดรธานี
-								</td>
-							</tr>
-							<tr>
-								<td align="center">
-									<b>
-										PB05
-									</b>
-								</td>
-								<td align="left">
-									การเพาะเลี้ยงสาหร่าย Arthrospira platensis CMU02 ด้วยปุ๋ยหมักจากมูลวัว
-								</td>
-								<td align="left">
-									ณัฐณิชา ฝ่ายชาวนา       อาจรีย์   ธัญญศิริ
-								</td>
-								<td align="left">
-									มหาวิทยาลัยราชภัฏอุดรธานี
-								</td>
-							</tr>
-						</tbody>
-					</table> </div>
-					<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"> 	<table id="tableLife3" class="tableLife display table table-bordered table-sm text-sm font-weight-light" cellspacing="0" style="font-size:13px; border: 1px solid black;width: 100%;">
-						<thead class="bg-light">
-							<tr>
-								<th align="center" colspan="7">
-									<b>
-										การนำเสนอแบบบรรยาย
-									</b>
-								</th>
-							</tr>
-							<tr>
-								<th align="center">
-									เวลา
-								</th>
-								<th align="center">
-									รหัส
-								</th>
-								<th align="center">
-									ชื่อบทความ
-								</th>
-								<th align="center">
-									ผู้นำเสนอ
-								</th>
-								<th align="center">
-									อจ.ที่ปรึกษา
-								</th>
-								<th align="center">
-									สังกัด
-								</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td align="left">
-									13.00-13.15
-								</td>
-								<td align="center">
-									<b>
-										OB01
-									</b>
-								</td>
-								<td align="left">
-									แบคทีเรียแลคติกจากอาหารหมักพื้นบ้านและดิน
-								</td>
-								<td align="left">
-									วราภรณ์สาธิตา เพชรนาดี นฤมล กุลวงค์
-								</td>
-								<td align="left">
-									ศกุนตลา ศิริอุดม
-								</td>
-								<td align="left">
-									มรภ.อุดรธานี
-								</td>
-							</tr>
-							<tr>
-								<td align="left" height="37">
-									13.15-13.30
-								</td>
-								<td align="center">
-									<b>
-										OB02
-									</b>
-								</td>
-								<td align="left">
-									การผลิตสารสีย้อมผ้าฝ้ายและคุณสมบัติในการยับยั้งการเจริญของจุลินทรีย์ก่อโรคของสารสีย้อมที่ผลิตจากแอคติโนมัยสีท
-								</td>
-								<td align="left">
-									พรณัฐฌา เสนานน         ศุภาวรรณ โคตรมะณี
-								</td>
-								<td align="left">
-									มรภ.อุดรธานี
-								</td>
-								<td align="left">
-
-								</td>
-							</tr>
-							<tr>
-								<td align="left" height="51">
-									13.30-13.45
-								</td>
-								<td align="center">
-									<b>
-										OB03
-									</b>
-								</td>
-								<td align="left">
-									การเพาะเลี้ยงสาหร่าย Arthrospira platensis CMU2 ด้วยน้ำหมักชีวภาพจากเปลือกกล้วย
-								</td>
-								<td align="left">
-									กฤติยาณี พิมพ์สุตะ         วิยากร ชาติขูรู
-								</td>
-								<td align="left">
-									สรฉัตร เทียมดาว
-								</td>
-								<td align="left">
-									มรภ.อุดรธานี
-								</td>
-							</tr>
-							<tr>
-								<td align="left" height="73">
-									13.45-14.00
-								</td>
-								<td align="center">
-									<b>
-										OB04
-									</b>
-								</td>
-								<td align="left">
-									ความแตกต่างของหอยฝาดียวโดยใช้มอร์โฟเมตริกส์ และดีเอ็นเอบาร์โค้ด
-								</td>
-								<td align="left">
-									ธีรศักดิ์ ศิริเพ็ชร์          ณัฐภรณ์ ภูมิประหมัน     ศาสตราชัย ประสพดี
-								</td>
-								<td align="left">
-									จุฑารัตน์ กุลสันติวงศ์
-								</td>
-								<td align="left">
-									มรภ.อุดรธานี
-								</td>
-							</tr>
-							<tr>
-								<td align="left" height="51">
-									14.00-14.15
-								</td>
-								<td align="center">
-									<b>
-										OB05
-									</b>
-								</td>
-								<td align="left">
-									การศึกษาจุลสัณฐานวิทยาของผลพืชสกุลหญ้ายอนหู (วงศ์หญ้า) ในประเทศไทย
-								</td>
-								<td align="left">
-									ชนิดา วาสิงหล             ฐิติกา นพคุณโพธิ์สว่าง
-								</td>
-								<td align="left">
-									วรรณวิภา ไชยสงคราม
-								</td>
-								<td align="left">
-									มรภ.อุดรธานี
-								</td>
-							</tr>
-							<tr>
-								<td align="left">
-									14.15-14.30
-								</td>
-								<td align="center">
-									<b>
-										OB06
-									</b>
-								</td>
-								<td align="left">
-									โครโมโซมของตั๊กแตนบางชนิดในมหาวิทยาลัยราชภัฏอุดรธานี (ศูนย์การศึกษาสามพร้าว)
-								</td>
-								<td align="left">
-									นิศานารถ คนกลาง        หทัยรัตน์ ภาษี
-								</td>
-								<td align="left">
-									มรภ.อุดรธานี
-								</td>
-								<td align="left">
-
-								</td>
-							</tr>
-							<tr>
-								<td align="left">
-									14.45-15.00
-								</td>
-								<td align="center">
-									<b>
-										OB07
-									</b>
-								</td>
-								<td align="left">
-									รงควัตถุและพอลิแซ็กคาไรด์ของ Arthrospira platensis CMU02
-								</td>
-								<td align="left">
-									ศิริกุล  ศรีศาสตร์ สมประสงค์ ภูมิอินทร์
-								</td>
-								<td align="left">
-									ธนิศรา อินทโสตถิ
-								</td>
-								<td align="left">
-									มรภ.อุดรธานี
-								</td>
-							</tr>
-							<tr>
-								<td align="left" >
-									15.15-15.30
-								</td>
-								<td align="center">
-									<b>
-										OB08
-									</b>
-								</td>
-								<td align="left">
-									การออกจากโฮสต์และช่วงเวลาการมีชีวิตของพยาธิใบไม้ระยะเซอร์คาเรียในหอยฝาเดียว
-								</td>
-								<td align="left">
-									สุพัตรา สมสายผล          ภูชิตา แซ่ตัน         ศาสตราชัย ประสพดี
-								</td>
-								<td align="left">
-									จุฑารัตน์ กุลสันติวงศ์
-								</td>
-								<td align="left">
-									มรภ.อุดรธานี
-								</td>
-							</tr>
-						</tbody>
-					</table> </div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!--====  End of notify paper  ====-->
-
-
-<!-- Services Section Start -->
-<section id="services" class="services section-padding bg-light">
-	<div class="container">
 		<div class="row">
-			<div class="col-12">
-				<div class="section-title-header text-center">
-					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s"> กลุ่มสาขาที่เกี่ยวข้อง </h1>
-					<p class="wow fadeInDown" data-wow-delay="0.2s">สำหรับผุ้ที่สนใจที่จะนำเสนอบทความ</p>
+			<div class="form-row col-sm-12 mx-auto">
+				<object data="<?php echo base_url('assets/file_notify/notifyList.pdf');?>" type="application/pdf" style="width: 100%;height: 1200px;">
+					<!-- support older browsers -->
+					<embed src="<?php echo base_url('assets/file_notify/notifyList.pdf');?>" type="application/pdf" style="width: 100%;height: 1200px;"/>
+						<!-- For those without native support, no pdf plugin, or no js -->
+						<p>  <a href="<?php echo base_url('assets/file_notify/notifyList.pdf');?>" target="_blank">Click here to download the document.</a></p>
+					</object>
 				</div>
 			</div>
 		</div>
-		<div class="row services-wrapper">
-			<!-- Services item -->
-			<div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-				<div class="services-item wow fadeInDown" data-wow-delay="0.2s">
-					<div class="icon">
-						<i class="lni-pulse"></i><i class="lni-pulse"></i>
-					</div>
-					<div class="services-content">
-						<h3><a href="#">วิทยาศาสตร์เพื่อสุขภาพ</a></h3>
-						<!-- 	<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
-					</div>
-				</div>
-			</div>
-			<!-- Services item -->
-			<div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-				<div class="services-item wow fadeInDown" data-wow-delay="0.4s">
-					<div class="icon">
-						<i class="lni-microscope"></i>
-					</div>
-					<div class="services-content">
-						<h3><a href="#">วิทยาศาสตร์ชีวภาพ</a></h3>
-						<!-- 	<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
-					</div>
-				</div>
-			</div>
-			<!-- Services item -->
-			<div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-				<div class="services-item wow fadeInDown" data-wow-delay="0.6s">
-					<div class="icon">
-						<i class="lni-bi-cycle"></i>
-					</div>
-					<div class="services-content">
-						<h3><a href="#">วิทยาศาสตร์กายภาพ</a></h3>
-						<!-- 	<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
-					</div>
-				</div>
-			</div>
-			<!-- match & stack item -->
-			<div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-				<div class="services-item wow fadeInDown" data-wow-delay="0.6s">
-					<div class="icon">
-						<i class="lni-bar-chart"></i>
-					</div>
-					<div class="services-content">
-						<h3><a href="#"> คณิตศาตร์ และ สถิติ <br>.</a></h3>
-						<!-- 	<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
-					</div>
-				</div>
-			</div>
-			<!-- Services item -->
-			<div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-				<div class="services-item wow fadeInDown" data-wow-delay="0.8s">
-					<div class="icon">
-						<i class="lni-laptop-phone"></i><i class="lni-signal"></i>
-					</div>
-					<div class="services-content">
-						<h3><a href="#">วิทยาการคอมพิวเตอร์และเทคโนโลยีสารสนเทศ</a></h3>
-						<!-- 	<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
-					</div>
-				</div>
-			</div>
+	</section>
+	<!--====  End of notify paper  ====-->
 
-		</div>
-	</div>
-</section>
-<!-- Services Section End -->
 
-<!-- About Section Start -->
-<section id="about" class="section-padding">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="section-title-header text-center">
-					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s"> เกี่ยวกับงานประชุม </h1>
-					<p class="wow fadeInDown" data-wow-delay="0.2s"> <!-- ข้อความ --> </p>
+	<!-- Services Section Start -->
+	<section id="services" class="services section-padding bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section-title-header text-center">
+						<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s"> กลุ่มสาขาที่เกี่ยวข้อง </h1>
+						<p class="wow fadeInDown" data-wow-delay="0.2s">สำหรับผุ้ที่สนใจที่จะนำเสนอบทความ</p>
+					</div>
 				</div>
 			</div>
+			<div class="row services-wrapper">
+				<!-- Services item -->
+				<div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+					<div class="services-item wow fadeInDown" data-wow-delay="0.2s">
+						<div class="icon">
+							<i class="lni-pulse"></i><i class="lni-pulse"></i>
+						</div>
+						<div class="services-content">
+							<h3><a href="#">วิทยาศาสตร์เพื่อสุขภาพ</a></h3>
+							<!-- 	<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
+						</div>
+					</div>
+				</div>
+				<!-- Services item -->
+				<div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+					<div class="services-item wow fadeInDown" data-wow-delay="0.4s">
+						<div class="icon">
+							<i class="lni-microscope"></i>
+						</div>
+						<div class="services-content">
+							<h3><a href="#">วิทยาศาสตร์ชีวภาพ</a></h3>
+							<!-- 	<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
+						</div>
+					</div>
+				</div>
+				<!-- Services item -->
+				<div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+					<div class="services-item wow fadeInDown" data-wow-delay="0.6s">
+						<div class="icon">
+							<i class="lni-bi-cycle"></i>
+						</div>
+						<div class="services-content">
+							<h3><a href="#">วิทยาศาสตร์กายภาพ</a></h3>
+							<!-- 	<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
+						</div>
+					</div>
+				</div>
+				<!-- match & stack item -->
+				<div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+					<div class="services-item wow fadeInDown" data-wow-delay="0.6s">
+						<div class="icon">
+							<i class="lni-bar-chart"></i>
+						</div>
+						<div class="services-content">
+							<h3><a href="#"> คณิตศาตร์ และ สถิติ <br>.</a></h3>
+							<!-- 	<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
+						</div>
+					</div>
+				</div>
+				<!-- Services item -->
+				<div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+					<div class="services-item wow fadeInDown" data-wow-delay="0.8s">
+						<div class="icon">
+							<i class="lni-laptop-phone"></i><i class="lni-signal"></i>
+						</div>
+						<div class="services-content">
+							<h3><a href="#">วิทยาการคอมพิวเตอร์และเทคโนโลยีสารสนเทศ</a></h3>
+							<!-- 	<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
+						</div>
+					</div>
+				</div>
+
+			</div>
 		</div>
-		<div class="row">
-			<div class="col-xs-12 col-md-6 col-lg-4">
-				<div class="about-item">
-					<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/gallery/gallery1.jpg" alt="">
+	</section>
+	<!-- Services Section End -->
+
+	<!-- About Section Start -->
+	<section id="about" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section-title-header text-center">
+						<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s"> เกี่ยวกับงานประชุม </h1>
+						<p class="wow fadeInDown" data-wow-delay="0.2s"> <!-- ข้อความ --> </p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-md-6 col-lg-4">
+					<div class="about-item">
+						<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/gallery/gallery1.jpg" alt="">
 				<!-- <div class="about-text">
 						<h3><a href="#">Wanna Know Our Mission?</a></h3>
 						<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
@@ -1425,7 +888,7 @@
 		list();
 		template();
 		fee();
-		tableLife();
+		// tableLife();
 	}(jQuery));
 
 	function countDownTime() {
