@@ -55,23 +55,8 @@
     	<div class="form-group row">
     		<label for="statusApcept" class="col-sm-3 float-right col-form-label col-form-label-sm">สถานะการตอบรับ</label>
     		<div class="col-sm-8">
-    			<i class="text-danger">ประกาศผลวันที่ 29 เมษายน 2562</i>
-    			<?php
-    			// switch ($datateam['pay_status']) {
-    			// 	case 'SUCCESS':
-    			// 	echo '<i class="text-success success">ตรวจสอบแล้ว</i>';
-    			// 	break;
-    			// 	case 'WAIT':
-    			// 	echo '<i class="text-warning wait">รอตรวจสอบ</i>';
-    			// 	break;
-    			// 	case 'NONE':
-    			// 	echo '<i class="text-danger">รอชำระค่าลงทะเบียน</i>';
-    			// 	break;
-    			// 	default:
-    			// 	null;
-    			// 	break;
-    			// }
-    			?>
+    			<i class="text-danger"> <?php echo anchor(base_url().'#notify', 'ประกาศรายชื่อบทความที่ผ่านการพิจารณาแล้ว'); ?></i>
+
     		</div>
     	</div>
     	<div class="form-group row">
